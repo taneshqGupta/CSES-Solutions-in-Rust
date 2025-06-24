@@ -2,6 +2,8 @@
 
 #### Links to my Rust based Solutions ::
 
+#### Introductory Problems :
+
 ##### [1. Wierd Algorithm](https://cses.fi/problemset/task/1068)
 ###### [Solution: https://cses.fi/paste/be34037874a1f1f2ccf2bd/](https://cses.fi/paste/be34037874a1f1f2ccf2bd/)
 
