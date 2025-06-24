@@ -1,6 +1,4 @@
-// recompile using command: 'rustc q1.rs'
-// run using command: './q1'
-// CSES ProblemSet Q-1 :: Wierd Algorithm
+// CSES ProblemSet Q-2 :: Missing Number
 // DateSolved: 24 Jun 2025
 // SolvedBy: taneshqGupta
 
@@ -9,18 +7,24 @@ use std::io::{Read, Write};
  
 fn solve<'a>(cin: &mut impl Iterator<Item = &'a str>, cout: &mut impl Write) -> Option<()> {
  
-    let mut n: usize = get(cin)?;
+    let n: usize = get(cin)?;
  
-    while n != 1 {
-        set(cout, &n); sp(cout);
-        if n % 2 == 0 {
-             n = n/2;
-        } else {
-            n = n*3 + 1;
-        }
-    }
+    const N: usize = 3e5 as usize;
  
-    set(cout, 1); nl(cout);
+    let mut aa: [usize; N] = [0; N];
+ 
+    let mut ans = 0;
+ 
+    for _ in 0..n-1 {
+        let curr: usize = get(cin)?;
+        aa[curr] += 1;
+    }    
+ 
+    for i in 1..=n{
+        if aa[i] == 0 { ans = i; }
+    }    
+ 
+    set(cout, &ans); nl(cout);
  
     Some(())
 }
@@ -29,8 +33,8 @@ fn solve<'a>(cin: &mut impl Iterator<Item = &'a str>, cout: &mut impl Write) -> 
 mod helpers {
     use std::{fmt::Display, io::Write, str::FromStr};
  
-    pub fn set<T: Display>(cout: &mut impl Write, sss: T) {
-        write!(cout, "{}", sss).ok();
+    pub fn set<T: Display>(cout: &mut impl Write, a: T) {
+        write!(cout, "{}", a).ok();
     }
  
     pub fn get<'a, T: FromStr>(cin: &mut impl Iterator<Item = &'a str>) -> Option<T> {
