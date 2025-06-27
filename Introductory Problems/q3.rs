@@ -25,6 +25,19 @@ fn solve<'a>(cin: &mut impl Iterator<Item = &'a str>, cout: &mut impl Write) -> 
     Some(())
 }
 
+fn main() {
+    let mut cout = std::io::BufWriter::new(std::io::stdout());
+    let mut s = String::new();
+    std::io::stdin().read_to_string(&mut s).unwrap();
+    let mut cin = s.split_ascii_whitespace();
+
+    // -- if there are test cases --
+    // let _t: usize = get(&mut cin).unwrap();
+    // -- if there are test cases --
+
+    while let Some(_) = solve(&mut cin, &mut cout) {}
+}
+
 #[allow(dead_code)]
 mod helpers {
     use std::{fmt::Display, io::Write, str::FromStr};
@@ -61,17 +74,4 @@ mod helpers {
     pub fn sp(cout: &mut impl Write) {
         write!(cout, " ").ok();
     }
-}
-
-fn main() {
-    let mut cout = std::io::BufWriter::new(std::io::stdout());
-    let mut s = String::new();
-    std::io::stdin().read_to_string(&mut s).unwrap();
-    let mut cin = s.split_ascii_whitespace();
-
-    // -- if there are test cases --
-    // let _t: usize = get(&mut cin).unwrap();
-    // -- if there are test cases --
-
-    while let Some(_) = solve(&mut cin, &mut cout) {}
 }
