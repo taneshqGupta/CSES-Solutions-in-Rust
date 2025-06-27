@@ -1,3 +1,7 @@
+// CSES ProblemSet Q-6 :: Number Spiral
+// DateSolved: 27 Jun 2025
+// SolvedBy: taneshqGupta
+
 use crate::helpers::*;
 use std::io::{Read, Write};
  
@@ -79,4 +83,3 @@ mod helpers {
         write!(cout, " ").ok();
     }
 }
- 
