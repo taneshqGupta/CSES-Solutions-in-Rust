@@ -15,3 +15,6 @@
 
 ##### [4. Increasing Array](https://cses.fi/problemset/task/1094)
 ###### [Solution: https://cses.fi/paste/87aec3949ea9d7bccd781f/](https://cses.fi/paste/87aec3949ea9d7bccd781f/)
+
+##### [5. Permutations](https://cses.fi/problemset/task/1070)
+###### [Solution: https://cses.fi/paste/270799af8d64fbb7cd7a54/](https://cses.fi/paste/270799af8d64fbb7cd7a54/)
