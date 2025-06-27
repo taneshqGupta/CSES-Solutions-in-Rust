@@ -12,3 +12,6 @@
 
 ##### [3. Repetitions](https://cses.fi/problemset/task/1069)
 ###### [Solution: https://cses.fi/paste/7f39e62b2b1526a5ccfcaf/](https://cses.fi/paste/7f39e62b2b1526a5ccfcaf/)
+
+##### [4. Increasing Array](https://cses.fi/problemset/task/1094)
+###### [Solution: https://cses.fi/paste/87aec3949ea9d7bccd781f/](https://cses.fi/paste/87aec3949ea9d7bccd781f/)
