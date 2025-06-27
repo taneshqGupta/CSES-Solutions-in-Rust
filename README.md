@@ -1,6 +1,6 @@
 ### Rust Solutions for the CSES Problemset
 
-###### This repository contains my solutions to the problems on the [CSES Problemset](https://cses.fi), implemented in Rust.
+###### This repository contains my (accepted) solutions to the problems on the [CSES Problemset](https://cses.fi), implemented in Rust.
 
 #### Introductory Problems
 
