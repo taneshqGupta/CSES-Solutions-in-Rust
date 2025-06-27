@@ -1,3 +1,7 @@
+// CSES ProblemSet Q-5 :: Permutations
+// DateSolved: 27 Jun 2025
+// SolvedBy: taneshqGupta
+
 use crate::helpers::*;
 use std::io::{Read, Write};
  
@@ -18,6 +22,7 @@ fn solve<'a>(cin: &mut impl Iterator<Item = &'a str>, cout: &mut impl Write) -> 
  
     Some(())
 }
+
 fn main() {
     let mut cout = std::io::BufWriter::new(std::io::stdout());
     let mut s = String::new();
