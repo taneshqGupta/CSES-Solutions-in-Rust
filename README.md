@@ -11,4 +11,4 @@
 | 3 | [Repetitions](https://cses.fi/problemset/task/1069) | [Link](https://cses.fi/paste/7f39e62b2b1526a5ccfcaf/) |
 | 4 | [Increasing Array](https://cses.fi/problemset/task/1094) | [Link](https://cses.fi/paste/87aec3949ea9d7bccd781f/) |
 | 5 | [Permutations](https://cses.fi/problemset/task/1070) | [Link](https://cses.fi/paste/270799af8d64fbb7cd7a54/) |
-| 6 | [Number Spiral](https://cses.fi/problemset/task/1071) | [Solution](https://cses.fi/paste/c8be95478ecffa39cd7bde/) |
+| 6 | [Number Spiral](https://cses.fi/problemset/task/1071) | [Link](https://cses.fi/paste/c8be95478ecffa39cd7bde/) |
