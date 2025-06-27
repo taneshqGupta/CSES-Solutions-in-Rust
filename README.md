@@ -6,9 +6,9 @@
 
 | # | Problem | Solution |
 |---|---|---|
-| 1 | [Weird Algorithm](https://cses.fi/problemset/task/1068) | [Link](https://cses.fi/paste/be34037874a1f1f2ccf2bd/) |
-| 2 | [Missing Number](https://cses.fi/problemset/task/1083) | [Link](https://cses.fi/paste/9be15fcbd807fc57ccf409/) |
-| 3 | [Repetitions](https://cses.fi/problemset/task/1069) | [Link](https://cses.fi/paste/7f39e62b2b1526a5ccfcaf/) |
-| 4 | [Increasing Array](https://cses.fi/problemset/task/1094) | [Link](https://cses.fi/paste/87aec3949ea9d7bccd781f/) |
-| 5 | [Permutations](https://cses.fi/problemset/task/1070) | [Link](https://cses.fi/paste/270799af8d64fbb7cd7a54/) |
-| 6 | [Number Spiral](https://cses.fi/problemset/task/1071) | [Link](https://cses.fi/paste/c8be95478ecffa39cd7bde/) |
+| 1 | [Weird Algorithm](https://cses.fi/problemset/task/1068) | [Solution](./Introductory%20Problems/src/1.%20Weird%20Algorithm.rs) |
+| 2 | [Missing Number](https://cses.fi/problemset/task/1083) | [Solution](./Introductory%20Problems/src/2.%20Missing%20Number.rs) |
+| 3 | [Repetitions](https://cses.fi/problemset/task/1069) | [Solution](./Introductory%20Problems/src/3.%20Repetitions.rs) |
+| 4 | [Increasing Array](https://cses.fi/problemset/task/1094) | [Solution](./Introductory%20Problems/src/4.%20Increasing%20Array.rs) |
+| 5 | [Permutations](https://cses.fi/problemset/task/1070) | [Solution](./Introductory%20Problems/src/5.%20Permutations.rs) |
+| 6 | [Number Spiral](https://cses.fi/problemset/task/1071) | [Solution](./Introductory%20Problems/src/6.%20Number%20Spiral.rs) |
