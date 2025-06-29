@@ -15,15 +15,9 @@
 
 ---
 
-#### About
-
-###### This repository showcases my journey solving competitive programming problems on the CSES Problemset using Rust. Each solution is optimized for competitive programming with fast I/O and efficient algorithms.
-
-#### Structure
-
-###### - Each solution file is named with the format: `{problem_number}_{problem_name}.rs`
-###### - Solutions are organized into directories based on the CSES problemset categories.
-###### - All solutions are accepted submissions on CSES.
+###### Each solution file is named with the format: `{problem_number}_{problem_name}.rs`
+###### Solutions are organized into directories based on the CSES problemset categories.
+###### All solutions are accepted submissions on CSES.
 
 #### Running the Solutions
 
