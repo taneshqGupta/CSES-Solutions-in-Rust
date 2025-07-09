@@ -25,8 +25,8 @@
 ###### To compile and run solutions:
 
 ```bash
-rustc introductory_problems/1_weird_algorithm.rs -o weird_algorithm
-./weird_algorithm
+rustc introductory_problems/1_weird_algorithm.rs -o sol
+./sol
 ```
 
 ---
