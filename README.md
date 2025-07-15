@@ -14,6 +14,7 @@
 | 6 | [Number Spiral](https://cses.fi/problemset/task/1071) | [introductory_problems/6_number_spiral.rs](./introductory_problems/6_number_spiral.rs) |
 | 7 | [Two Knights](https://cses.fi/problemset/task/1072) | [introductory_problems/7_two_knights.rs](./introductory_problems/7_two_knights.rs) |
 | 8 | [Two Sets](https://cses.fi/problemset/task/1092) | [introductory_problems/8_two_sets.rs](./introductory_problems/8_two_sets.rs) |
+| 9 | [Bit Strings](https://cses.fi/problemset/task/1617) | [introductory_problems/9_bit_strings.rs](./introductory_problems/9_bit_strings.rs) |
 
 ---
 
