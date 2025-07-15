@@ -13,6 +13,7 @@
 | 5 | [Permutations](https://cses.fi/problemset/task/1070) | [introductory_problems/5_permutations.rs](./introductory_problems/5_permutations.rs) |
 | 6 | [Number Spiral](https://cses.fi/problemset/task/1071) | [introductory_problems/6_number_spiral.rs](./introductory_problems/6_number_spiral.rs) |
 | 7 | [Two Knights](https://cses.fi/problemset/task/1072) | [introductory_problems/7_two_knights.rs](./introductory_problems/7_two_knights.rs) |
+| 8 | [Two Sets](https://cses.fi/problemset/task/1092) | [introductory_problems/8_two_sets.rs](./introductory_problems/8_two_sets.rs) |
 
 ---
 
@@ -25,7 +26,8 @@
 ###### To compile and run solutions:
 
 ```bash
-rustc introductory_problems/1_weird_algorithm.rs -o sol
+cd introductory_problems
+rustc 1_weird_algorithm.rs -o sol
 ./sol
 ```
 
