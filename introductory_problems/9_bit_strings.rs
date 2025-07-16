@@ -15,13 +15,33 @@ impl Scanner {
 
 fn main() {
     let mut cin = Scanner::new();
-    let n: u32 = cin.next();
+    let mut n: u32 = cin.next();
 
-    let mut ans = 2;
+    // to compute: 2^n % (1e9 + 7)
 
-    for _ in 1..n {
-        ans = (ans * 2) % (1e9 as usize + 7);
+    // --- Linear Exponentiation Solution ---
+    // let mut ans = 2;
+
+    // for _ in 1..n {
+    //     ans = (ans * 2) % (1e9 as usize + 7);
+    // }
+
+    // println!("{}", ans);
+    // --- Linear Exponentiation Solution ---
+
+    // --- Binary Exponentiation Solution ---
+    let mut ans = 1;
+    let mut base = 2;
+    const MOD: usize = 1e9 as usize + 7;
+    
+    while n > 0 {
+        if n % 2 == 1 {
+            ans = (ans * base) % MOD;
+        }
+        base = (base * base) % MOD;
+        n /= 2;
     }
 
     println!("{}", ans);
+    // --- Binary Exponentiation Solution
 }
