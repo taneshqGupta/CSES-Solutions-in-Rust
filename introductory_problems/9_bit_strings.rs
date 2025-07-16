@@ -19,7 +19,7 @@ fn main() {
 
     // to compute: 2^n % (1e9 + 7)
 
-    // --- Linear Exponentiation Solution ---
+    // --- Linear Exponentiation Solution --- O(N)
     // let mut ans = 2;
 
     // for _ in 1..n {
@@ -29,7 +29,7 @@ fn main() {
     // println!("{}", ans);
     // --- Linear Exponentiation Solution ---
 
-    // --- Binary Exponentiation Solution ---
+    // --- Binary Exponentiation Solution --- O(log(N))
     let mut ans = 1;
     let mut base = 2;
     const MOD: usize = 1e9 as usize + 7;
