@@ -16,6 +16,7 @@
 | 8 | [Two Sets](https://cses.fi/problemset/task/1092) | [introductory_problems/8_two_sets.rs](./introductory_problems/8_two_sets.rs) |
 | 9 | [Bit Strings](https://cses.fi/problemset/task/1617) | [introductory_problems/9_bit_strings.rs](./introductory_problems/9_bit_strings.rs) |
 | 10 | [Trailing Zeroes](https://cses.fi/problemset/task/1618) | [introductory_problems/10_trailing_zeroes.rs](./introductory_problems/10_trailing_zeroes.rs) |
+| 11 | [Coin Piles](https://cses.fi/problemset/task/1754) | [introductory_problems/11_coin_piles.rs](./introductory_problems/11_coin_piles.rs) |
 
 ---
 
