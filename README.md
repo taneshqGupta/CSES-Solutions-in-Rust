@@ -36,4 +36,4 @@ rustc 1_weird_algorithm.rs -o sol
 
 ---
 
-*Happy Coding! 🦀*
+**Happy Coding! 🦀**
