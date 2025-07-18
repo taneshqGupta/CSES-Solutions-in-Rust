@@ -13,7 +13,7 @@ impl Scanner {
     }
 }
 
-fn tower(n: u8, a: u8, b: u8, c: u8) {
+fn tower(n: u32, a: u8, b: u8, c: u8) {
     if n > 0 {
         tower(n - 1, a, c, b);
         println!("{} {}", a, c);
@@ -23,7 +23,7 @@ fn tower(n: u8, a: u8, b: u8, c: u8) {
 
 fn main() {
     let mut cin = Scanner::new();
-    let n: u8 = cin.next();
-    println!("{}", u16::pow(2, n as u32) - 1);
+    let n = cin.next();
+    println!("{}", u16::pow(2, n) - 1);
     tower(n, 1, 2, 3);
 }
