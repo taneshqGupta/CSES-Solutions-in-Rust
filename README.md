@@ -19,6 +19,7 @@
 | 11 | [`Coin Piles`](https://cses.fi/problemset/task/1754) | [`introductory_problems/11_coin_piles.rs`](./introductory_problems/11_coin_piles.rs) |
 | 12 | [`Palindrome Reorder`](https://cses.fi/problemset/task/1755) | [`introductory_problems/12_palindrome_reorder.rs`](./introductory_problems/12_palindrome_reorder.rs) |
 | 13 | [`Gray Code`](https://cses.fi/problemset/task/2205) | [`introductory_problems/13_gray_code.rs`](./introductory_problems/13_gray_code.rs) |
+| 14 | [`Tower of Hanoi`](https://cses.fi/problemset/task/2165) | [`introductory_problems/14_tower_of_hanoi.rs`](./introductory_problems/14_tower_of_hanoi.rs) |
 
 ---
 
@@ -38,4 +39,4 @@ rustc 1_weird_algorithm.rs -o sol
 
 ---
 
-*Happy Coding! 🦀*
+*Happy Coding! 🦀**
