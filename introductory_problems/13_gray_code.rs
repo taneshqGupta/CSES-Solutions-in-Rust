@@ -26,8 +26,7 @@ fn gray(n: u8) -> Vec<Vec<bool>> {
 
 fn main() {
     let mut cin = Scanner::new();
-    let n: u8 = cin.next();
-    let aa = gray(n);
+    let aa = gray(cin.next());
     for a in aa {
         for &c in a.iter().rev() {
             print!("{}", if c { 1 } else { 0 });
