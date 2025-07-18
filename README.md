@@ -18,6 +18,7 @@
 | 10 | [Trailing Zeroes](https://cses.fi/problemset/task/1618) | [introductory_problems/10_trailing_zeroes.rs](./introductory_problems/10_trailing_zeroes.rs) |
 | 11 | [Coin Piles](https://cses.fi/problemset/task/1754) | [introductory_problems/11_coin_piles.rs](./introductory_problems/11_coin_piles.rs) |
 | 12 | [Palindrome Reorder](https://cses.fi/problemset/task/1755) | [introductory_problems/12_palindrome_reorder.rs](./introductory_problems/12_palindrome_reorder.rs) |
+| 13 | [Gray Code](https://cses.fi/problemset/task/2205) | [introductory_problems/13_gray_code.rs](./introductory_problems/13_gray_code.rs) |
 
 ---
 
