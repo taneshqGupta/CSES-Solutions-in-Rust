@@ -22,7 +22,6 @@ fn main() {
     for c in s.chars() {
         *f.entry(c).or_insert(0) += 1;
     }
-    // dbg!(&freq);
     let mut no_of_odd = 0;
     for v in f.values() {
         if v % 2 == 1 {
