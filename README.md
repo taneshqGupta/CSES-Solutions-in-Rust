@@ -1,6 +1,6 @@
 ### Rust Solutions for the CSES Problemset
 
-###### This repository contains my (accepted) solutions to the problems on the [CSES Problemset](https://cses.fi), implemented in Rust.
+###### This repository contains my (accepted) solutions to the problems on the [CSES Problemset](https://cses.fi/problemset/list), implemented in Rust.
 
 #### Solutions
 
@@ -19,7 +19,8 @@
 | 11 | [`Coin Piles`](https://cses.fi/problemset/task/1754) | [`introductory_problems/11_coin_piles.rs`](./introductory_problems/11_coin_piles.rs) |
 | 12 | [`Palindrome Reorder`](https://cses.fi/problemset/task/1755) | [`introductory_problems/12_palindrome_reorder.rs`](./introductory_problems/12_palindrome_reorder.rs) |
 | 13 | [`Gray Code`](https://cses.fi/problemset/task/2205) | [`introductory_problems/13_gray_code.rs`](./introductory_problems/13_gray_code.rs) |
-| 14 | [`Tower of Hanoi`](https://cses.fi/problemset/task/2165) | [`introductory_problems/14_tower_of_hanoi.rs`](./introductory_problems/14_tower_of_hanoi.rs) |
+| 14 | [`Tower of Hanoi`](https://cses.fi/problemset/task/2165) | [`introductory_problems/14_tower_of_hanoi_sol1.rs`](./introductory_problems/14_tower_of_hanoi_sol1.rs) |
+| 14 | [`Tower of Hanoi`](https://cses.fi/problemset/task/2165) | [`introductory_problems/14_tower_of_hanoi_sol2.rs`](./introductory_problems/14_tower_of_hanoi_sol2.rs) |
 
 ---
 
