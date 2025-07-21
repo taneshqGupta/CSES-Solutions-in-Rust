@@ -4,6 +4,8 @@
 
 #### Solutions
 
+##### Introductory Problems
+
 | # | Problem | Solution |
 |---|---|---|
 | 1 | [`Weird Algorithm`](https://cses.fi/problemset/task/1068) | [`introductory_problems/1_weird_algorithm.rs`](./introductory_problems/1_weird_algorithm.rs) |
@@ -21,6 +23,12 @@
 | 13 | [`Gray Code`](https://cses.fi/problemset/task/2205) | [`introductory_problems/13_gray_code.rs`](./introductory_problems/13_gray_code.rs) |
 | 14 | [`Tower of Hanoi`](https://cses.fi/problemset/task/2165) | [`introductory_problems/14_tower_of_hanoi_sol1.rs`](./introductory_problems/14_tower_of_hanoi_sol1.rs) |
 | 14 | [`Tower of Hanoi`](https://cses.fi/problemset/task/2165) | [`introductory_problems/14_tower_of_hanoi_sol2.rs`](./introductory_problems/14_tower_of_hanoi_sol2.rs) |
+
+##### Interactive Problems
+
+| # | Problem | Solution |
+|---|---|---|
+| 1 | [`Hidden Integer`](https://cses.fi/problemset/task/3112) | [`interactive_problems/1_hidden_integer.rs`](./interactive_problems/1_hidden_integer.rs) |
 
 ---
 
