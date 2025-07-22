@@ -29,6 +29,7 @@
 | # | Problem | Solution |
 |---|---|---|
 | 1 | [`Hidden Integer`](https://cses.fi/problemset/task/3112) | [`interactive_problems/1_hidden_integer.rs`](./interactive_problems/1_hidden_integer.rs) |
+| 2 | [`Hidden Permutation`](https://cses.fi/problemset/task/3139) | [`interactive_problems/2_hidden_permutation.rs`](./interactive_problems/2_hidden_permutation.rs) |
 
 ---
 
