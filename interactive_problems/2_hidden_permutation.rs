@@ -22,7 +22,7 @@ impl Scanner {
 fn main() {
     let mut cin = Scanner::default();
     let n: usize = cin.next();
-    let mut a: Vec<usize> = (1..=n).map(|i| i).collect();
+    let mut a: Vec<usize> = (1..=n).collect();
     // dbg!(&a);
     for i in 1..n {
         let mut minp = 0;
@@ -56,7 +56,7 @@ fn main() {
     }
     print!("! ");
     for i in mapx.values() {
-        print!("{} ", i)
+        print!("{} ", i);
     }
     println!();
 }
