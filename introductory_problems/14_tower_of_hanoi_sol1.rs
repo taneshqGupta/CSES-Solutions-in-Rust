@@ -18,25 +18,25 @@ impl Scanner {
 }
 
 #[derive(Default)]
-struct Tower(String);
-impl Tower {
-    fn build(&mut self, n: u8, from: char, aux: char, to: char) {
+struct Hanoi{
+    tower: Vec<(u8, u8)>
+}
+impl Hanoi {
+    fn build(&mut self, n: u8, from: u8, aux: u8, to: u8) {
         if n > 0 {
             self.build(n - 1, from, to, aux);
-            self.0.push(from);
-            self.0.push(' ');
-            self.0.push(to);
-            self.0.push('\n');
+            self.tower.push((from, to));
             self.build(n - 1, aux, from, to);
         }
     }
 }
-
+ 
 fn main() {
     let mut cin = Scanner::default();
-    let mut tower = Tower::default();
-    let n = cin.next();
-    tower.build(n, '1', '2', '3');
-    print!("{}\n", (1 << n) - 1);
-    print!("{}", tower.0);
+    let mut hanoi = Hanoi::default();
+    hanoi.build(cin.next(), 1, 2, 3);
+    println!("{}", hanoi.tower.len());
+    for (from, to) in hanoi.tower {
+        println!("{} {}", from, to);
+    }
 }
