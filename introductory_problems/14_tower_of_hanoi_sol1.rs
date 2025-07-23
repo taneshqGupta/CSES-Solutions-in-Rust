@@ -18,12 +18,15 @@ impl Scanner {
 }
 
 #[derive(Default)]
-struct Tower(Vec<(u8, u8)>);
+struct Tower(String);
 impl Tower {
-    fn build(&mut self, n: u8, from: u8, aux: u8, to: u8) {
+    fn build(&mut self, n: u8, from: char, aux: char, to: char) {
         if n > 0 {
             self.build(n - 1, from, to, aux);
-            self.0.push((from, to));
+            self.0.push(from);
+            self.0.push(' ');
+            self.0.push(to);
+            self.0.push('\n');
             self.build(n - 1, aux, from, to);
         }
     }
@@ -32,9 +35,8 @@ impl Tower {
 fn main() {
     let mut cin = Scanner::default();
     let mut tower = Tower::default();
-    tower.build(cin.next(), 1, 2, 3);
-    println!("{}", tower.0.len());
-    for (from, to) in tower.0 {
-        println!("{} {}", from, to);
-    }
+    let n = cin.next();
+    tower.build(n, '1', '2', '3');
+    print!("{}\n", (1 << n) - 1);
+    print!("{}", tower.0);
 }
