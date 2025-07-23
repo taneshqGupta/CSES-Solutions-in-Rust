@@ -19,6 +19,20 @@ impl Scanner {
     }
 }
 
+/*
+    This solution uses AVL tree. We redefine the comparison between keys
+    for insertion to be outsourced to the grader. The query complexity of
+    this approach is also obviously O(n*log(n)) but due to the insertion
+    process essentially being equivalent to the binary search process, 
+    we get O(n*log(n)) in insertion as well. Thus the operational time
+    complexity of this approach is also O(n*log(n)). SO even if the
+    constraint of n is changed from 1000 to 100000, and the max allowed
+    queries are changed accordingly, we would still not get TLE, all the
+    while remaining under the query limit as well.
+
+    In summary, while the sol_1 is more efficient for smaller inputs
+    for larger inputs, AVL tree solution is orders of magnitudes faster.
+*/
 struct Node {
     key: usize,
     height: usize,
@@ -162,7 +176,6 @@ impl AVL {
         result
     }
 }
-
 fn main() {
     let mut tree = AVL::new();
     let n: usize = tree.cin.next();

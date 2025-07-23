@@ -19,6 +19,19 @@ impl Scanner {
     }
 }
 
+/* 
+    This solution uses an insertion sort with binary search
+    to find the correct position to insert the i'th element.
+    The search is binary so essentially the query complexity
+    is O(n*log(n)) but the process of inserting the i'th element
+    into the correct position if of complexity O(n) which when 
+    applied across all i ranging from 1 to n.. we get total 
+    operational time complexity of this mechanism to be
+    O(n*n). Which is why if the constraints were n<=100000 
+    instead of n<=1000, we would get TLE with this mechanism
+    (even if we were under the O(n*log(n)) queries for that constraint).
+    Thus we have the next solution using AVL tree.
+*/
 fn main() {
     let mut cin = Scanner::default();
     let n: usize = cin.next();
