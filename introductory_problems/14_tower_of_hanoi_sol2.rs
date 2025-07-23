@@ -16,18 +16,23 @@ impl Scanner {
         }
     }
 }
-
-fn tower(n: u32, a: u8, b: u8, c: u8) {
+ 
+fn tower(n: u8, a: char, b: char, c: char, s: &mut String) {
     if n > 0 {
-        tower(n - 1, a, c, b);
-        println!("{} {}", a, c);
-        tower(n - 1, b, a, c);
+        tower(n - 1, a, c, b, s);
+        s.push(a);
+        s.push(' ');
+        s.push(c);
+        s.push('\n');
+        tower(n - 1, b, a, c, s);
     }
 }
-
+ 
 fn main() {
-    let mut cin = Scanner::new();
+    let mut cin = Scanner::default();
     let n = cin.next();
-    println!("{}", u16::pow(2, n) - 1);
-    tower(n, 1, 2, 3);
+    print!("{}\n", (1 << n) - 1);
+    let mut s = String::new();
+    tower(n, '1', '2', '3', &mut s);
+    print!("{}", s);
 }
