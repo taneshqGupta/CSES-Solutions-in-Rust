@@ -30,8 +30,10 @@ impl Scanner {
     queries are changed accordingly, we would still not get TLE, all the
     while remaining under the query limit as well.
 
-    In summary, while the sol_1 is more efficient for smaller inputs
-    for larger inputs, AVL tree solution is orders of magnitudes faster.
+    In summary, 
+    while the sol_1 is more efficient for smaller inputs like n = 1000..
+    for larger inputs like n = 100000, 
+    AVL tree solution is orders of magnitudes faster.
 */
 struct Node {
     key: usize,
