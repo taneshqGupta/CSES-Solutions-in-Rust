@@ -31,7 +31,7 @@ impl Scanner {
     while remaining under the query limit as well.
 
     In summary, 
-    while the sol_1 is more efficient for smaller inputs like n = 1000..
+    while the sol_1 can be more efficient for smaller inputs like n = 1000..
     for larger inputs like n = 100000, 
     AVL tree solution is orders of magnitudes faster.
 */
