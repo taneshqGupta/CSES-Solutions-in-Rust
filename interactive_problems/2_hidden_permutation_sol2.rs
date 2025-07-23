@@ -174,13 +174,13 @@ fn main() {
     let a = tree.inorder();
     let mut mapx = BTreeMap::new();
     
-    for (i, &val) in a.iter().enumerate() {
-        mapx.insert(val, i + 1);
+    for i in 0..n {
+        mapx.insert(a[i], i + 1);
     }
     
     print!("! ");
-    for &pos in mapx.values() {
-        print!("{} ", pos);
+    for i in mapx.values() {
+        print!("{} ", i);
     }
     println!();
 }
