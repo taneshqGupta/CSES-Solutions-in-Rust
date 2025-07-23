@@ -18,8 +18,8 @@ impl Scanner {
 }
 
 #[derive(Default)]
-struct Hanoi{
-    tower: Vec<(u8, u8)>
+struct Hanoi {
+    tower: Vec<(u8, u8)>,
 }
 impl Hanoi {
     fn build(&mut self, n: u8, from: u8, aux: u8, to: u8) {
@@ -30,7 +30,7 @@ impl Hanoi {
         }
     }
 }
- 
+
 fn main() {
     let mut cin = Scanner::default();
     let mut hanoi = Hanoi::default();
