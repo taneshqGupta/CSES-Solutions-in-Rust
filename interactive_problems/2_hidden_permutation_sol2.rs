@@ -23,16 +23,16 @@ impl Scanner {
     This solution uses AVL tree. We redefine the comparison between keys
     for insertion to be outsourced to the grader. The query complexity of
     this approach is also obviously O(n*log(n)) but due to the insertion
-    process essentially being equivalent to the binary search process, 
+    process essentially being equivalent to the binary search process,
     we get O(n*log(n)) in insertion as well. Thus the operational time
     complexity of this approach is also O(n*log(n)). SO even if the
     constraint of n is changed from 1000 to 100000, and the max allowed
     queries are changed accordingly, we would still not get TLE, all the
     while remaining under the query limit as well.
 
-    In summary, 
+    In summary,
     while the sol_1 can be slightly efficient for smaller inputs like n = 100..
-    for larger inputs like n = 100000, 
+    for larger inputs like n = 100000,
     AVL tree solution is orders of magnitudes faster.
 */
 struct Node {
@@ -76,14 +76,10 @@ impl AVL {
 
     fn balance_factor(node: &Option<Box<Node>>) -> isize {
         if let Some(n) = node {
-            Self::height(&n.left) as isize - Self::height(&n.right) as isize
+            (Self::height(&n.left) - Self::height(&n.right)) as isize
         } else {
             0
         }
-    }
-
-    fn balance_factor_box(node: &Box<Node>) -> isize {
-        Self::height(&node.left) as isize - Self::height(&node.right) as isize
     }
 
     fn update_height(node: &mut Box<Node>) {
@@ -119,8 +115,8 @@ impl AVL {
     }
 
     fn rebalance(mut p: Box<Node>) -> Box<Node> {
-        let bf = Self::balance_factor_box(&p);
-        
+        let bf = (Self::height(&p.left) - Self::height(&p.right)) as isize;
+
         if bf > 1 {
             if Self::balance_factor(&p.left) >= 0 {
                 p = Self::rotate_right(p);
@@ -134,7 +130,7 @@ impl AVL {
                 p = Self::rotate_right_left(p);
             }
         }
-        
+
         Self::update_height(&mut p);
         p
     }
@@ -178,21 +174,22 @@ impl AVL {
         result
     }
 }
+
 fn main() {
     let mut tree = AVL::new();
     let n: usize = tree.cin.next();
-    
+
     for i in 1..=n {
         tree.insert(i);
     }
-    
+
     let a = tree.inorder();
     let mut mapx = BTreeMap::new();
-    
+
     for i in 0..n {
         mapx.insert(a[i], i + 1);
     }
-    
+
     print!("! ");
     for i in mapx.values() {
         print!("{} ", i);
