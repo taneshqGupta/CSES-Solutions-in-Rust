@@ -2,6 +2,8 @@
 // DateSolved: 17 Jul 2025
 // SolvedBy: taneshqGupta
 
+use std::array;
+
 #[derive(Default, Debug)]
 struct Scanner(Vec<String>);
 impl Scanner {
@@ -19,15 +21,15 @@ impl Scanner {
 
 fn main() {
     let mut cin = Scanner::default();
-    let t: usize = cin.next();
+    let t = cin.next();
     for _ in 0..t {
-        let (a, b): (usize, usize) = (cin.next(), cin.next());
+        let [a, b] = array::from_fn(|_| cin.next::<usize>());
         if (a + b) % 3 != 0 {
             println!("{}", "NO");
             continue;
         }
         let steps = (a + b) / 3;
-        if std::cmp::min(a, b) < steps {
+        if a.min(b) < steps {
             println!("{}", "NO");
             continue;
         }
