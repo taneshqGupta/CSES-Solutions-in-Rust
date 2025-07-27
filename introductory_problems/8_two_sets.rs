@@ -2,19 +2,23 @@
 // DateSolved: 14 Jul 2025
 // SolvedBy: taneshqGupta
 
+#[derive(Default, Debug)]
 struct Scanner(Vec<String>);
 impl Scanner {
-    fn new() -> Self {
-        let input = std::io::read_to_string(std::io::stdin()).unwrap();
-        Scanner(input.split_whitespace().map(String::from).rev().collect())
-    }
     fn next<T: std::str::FromStr>(&mut self) -> T {
-        self.0.pop().unwrap().parse().ok().unwrap()
+        loop {
+            if let Some(c) = self.0.pop() {
+                return c.parse().ok().unwrap();
+            }
+            let mut s = String::new();
+            std::io::stdin().read_line(&mut s).unwrap();
+            self.0 = s.split_whitespace().rev().map(String::from).collect();
+        }
     }
 }
 
 fn main() {
-    let mut cin = Scanner::new();
+    let mut cin = Scanner::default();
     let n: usize = cin.next();
     if n % 4 == 1 || n % 4 == 2 {
         // if n = 4k + 1 or n = 4k + 2,

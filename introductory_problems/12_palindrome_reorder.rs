@@ -4,19 +4,23 @@
 
 use std::collections::HashMap;
 
+#[derive(Default, Debug)]
 struct Scanner(Vec<String>);
 impl Scanner {
-    fn new() -> Self {
-        let input = std::io::read_to_string(std::io::stdin()).unwrap();
-        Scanner(input.split_whitespace().map(String::from).rev().collect())
-    }
     fn next<T: std::str::FromStr>(&mut self) -> T {
-        self.0.pop().unwrap().parse().ok().unwrap()
+        loop {
+            if let Some(c) = self.0.pop() {
+                return c.parse().ok().unwrap();
+            }
+            let mut s = String::new();
+            std::io::stdin().read_line(&mut s).unwrap();
+            self.0 = s.split_whitespace().rev().map(String::from).collect();
+        }
     }
 }
 
 fn main() {
-    let mut cin = Scanner::new();
+    let mut cin = Scanner::default();
     let s: String = cin.next();
     let mut f: HashMap<char, usize> = HashMap::new();
     for c in s.chars() {
