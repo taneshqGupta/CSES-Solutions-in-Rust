@@ -33,7 +33,7 @@ fn main() {
         }
     }
     if no_of_odd > 1 {
-        println!("{}", "NO SOLUTION");
+        println!("NO SOLUTION");
         return;
     }
     let mut a = vec![];
