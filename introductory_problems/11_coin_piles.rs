@@ -25,14 +25,14 @@ fn main() {
     for _ in 0..t {
         let [a, b] = array::from_fn(|_| cin.next::<usize>());
         if (a + b) % 3 != 0 {
-            println!("{}", "NO");
+            println!("NO");
             continue;
         }
         let steps = (a + b) / 3;
         if a.min(b) < steps {
-            println!("{}", "NO");
+            println!("NO");
             continue;
         }
-        println!("{}", "YES");
+        println!("YES");
     }
 }
