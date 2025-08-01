@@ -31,6 +31,7 @@
 | 1 | [`Hidden Integer`](https://cses.fi/problemset/task/3112) | [`interactive_problems/1_hidden_integer.rs`](./interactive_problems/1_hidden_integer.rs) |
 | 2 | [`Hidden Permutation`](https://cses.fi/problemset/task/3139) | [`interactive_problems/2_hidden_permutation_sol1.rs`](./interactive_problems/2_hidden_permutation_sol1.rs) |
 | 2 | [`Hidden Permutation`](https://cses.fi/problemset/task/3139) | [`interactive_problems/2_hidden_permutation_sol2.rs`](./interactive_problems/2_hidden_permutation_sol2.rs) |
+| 3 | [`K'th Highest Score`](https://cses.fi/problemset/task/3305) | [`interactive_problems/3_kth_highest_score.rs`](./interactive_problems/3_kth_highest_score.rs) |
 
 ---
 
