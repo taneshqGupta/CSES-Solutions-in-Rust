@@ -1,4 +1,4 @@
-// CSES ProblemSet Q-2 :: Missing Number
+// CSES Introductory-Problems Q-2 :: Missing Number
 // DateSolved: 24 Jun 2025
 // SolvedBy: taneshqGupta
 

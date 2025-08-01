@@ -1,4 +1,4 @@
-// CSES ProblemSet Q-5 :: Permutations
+// CSES Introductory-Problems Q-5 :: Permutations
 // DateSolved: 27 Jun 2025
 // SolvedBy: taneshqGupta
 

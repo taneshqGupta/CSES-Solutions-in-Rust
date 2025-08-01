@@ -1,4 +1,4 @@
-// CSES ProblemSet Q-1 :: Hidden Integer
+// CSES Interactive-Problems Q-1 :: Hidden Integer
 // DateSolved: 21 Jul 2025
 // SolvedBy: taneshqGupta
 

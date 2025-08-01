@@ -1,4 +1,4 @@
-// CSES ProblemSet Q-2 :: Hidden Permutation
+// CSES Interactive-Problems Q-2 :: Hidden Permutation
 // DateSolved: 23 Jul 2025
 // SolvedBy: taneshqGupta
 

@@ -1,4 +1,4 @@
-// CSES ProblemSet Q-1 :: Wierd Algorithm
+// CSES Introductory-Problems Q-1 :: Wierd Algorithm
 // DateSolved: 24 Jun 2025
 // SolvedBy: taneshqGupta
 

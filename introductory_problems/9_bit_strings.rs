@@ -1,4 +1,4 @@
-// CSES ProblemSet Q-9 :: Bit Strings
+// CSES Introductory-Problems Q-9 :: Bit Strings
 // DateSolved: 15 Jul 2025
 // SolvedBy: taneshqGupta
 

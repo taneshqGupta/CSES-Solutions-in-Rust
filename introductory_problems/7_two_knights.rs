@@ -1,4 +1,4 @@
-// CSES ProblemSet Q-7 :: Two Knights
+// CSES Introductory-Problems Q-7 :: Two Knights
 // DateSolved: 9 Jul 2025
 // SolvedBy: taneshqGupta
 

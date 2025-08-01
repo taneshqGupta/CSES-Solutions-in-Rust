@@ -1,4 +1,4 @@
-// CSES ProblemSet Q-3 :: Repetitions
+// CSES Introductory-Problems Q-3 :: Repetitions
 // DateSolved: 24 Jun 2025
 // SolvedBy: taneshqGupta
 

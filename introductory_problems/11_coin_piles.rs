@@ -1,4 +1,4 @@
-// CSES ProblemSet Q-11 :: Coin Piles
+// CSES Introductory-Problems Q-11 :: Coin Piles
 // DateSolved: 17 Jul 2025
 // SolvedBy: taneshqGupta
 

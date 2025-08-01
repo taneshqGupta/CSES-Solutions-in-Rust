@@ -1,4 +1,4 @@
-// CSES ProblemSet Q-13 :: Gray Code
+// CSES Introductory-Problems Q-13 :: Gray Code
 // DateSolved: 18 Jul 2025
 // SolvedBy: taneshqGupta
 

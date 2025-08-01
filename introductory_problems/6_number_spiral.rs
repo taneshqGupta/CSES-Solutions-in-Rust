@@ -1,4 +1,4 @@
-// CSES ProblemSet Q-6 :: Number Spiral
+// CSES Introductory-Problems Q-6 :: Number Spiral
 // DateSolved: 27 Jun 2025
 // SolvedBy: taneshqGupta
 

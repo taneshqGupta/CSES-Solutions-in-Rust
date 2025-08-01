@@ -1,4 +1,4 @@
-// CSES ProblemSet Q-14 :: Tower of Hanoi
+// CSES Introductory-Problems Q-14 :: Tower of Hanoi
 // DateSolved: 18 Jul 2025
 // SolvedBy: taneshqGupta
 

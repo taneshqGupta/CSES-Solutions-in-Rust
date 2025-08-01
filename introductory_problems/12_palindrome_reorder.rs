@@ -1,4 +1,4 @@
-// CSES ProblemSet Q-12 :: Palindrome Reorder
+// CSES Introductory-Problems Q-12 :: Palindrome Reorder
 // DateSolved: 17 Jul 2025
 // SolvedBy: taneshqGupta
 

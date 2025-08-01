@@ -1,4 +1,4 @@
-// CSES ProblemSet Q-8 :: Two Sets
+// CSES Introductory-Problems Q-8 :: Two Sets
 // DateSolved: 14 Jul 2025
 // SolvedBy: taneshqGupta
 

@@ -1,4 +1,4 @@
-// CSES ProblemSet Q-10 :: Trailing Zeroes
+// CSES Introductory-Problems Q-10 :: Trailing Zeroes
 // DateSolved: 16 Jul 2025
 // SolvedBy: taneshqGupta
 

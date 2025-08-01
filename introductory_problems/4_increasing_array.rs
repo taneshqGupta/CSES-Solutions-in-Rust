@@ -1,4 +1,4 @@
-// CSES ProblemSet Q-4 :: Increasing Array
+// CSES Introductory-Problems Q-4 :: Increasing Array
 // DateSolved: 27 Jun 2025
 // SolvedBy: taneshqGupta
 
