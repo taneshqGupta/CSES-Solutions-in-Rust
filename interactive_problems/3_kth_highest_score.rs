@@ -76,3 +76,4 @@ fn main() {
     let fin_ans = binary(&mut cin, k, low, high, true, &mut hashx);
     let swe_ans = binary(&mut cin, k, low, high, false, &mut hashx);
     println!("! {}", fin_ans.max(swe_ans));
+}
