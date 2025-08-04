@@ -1,6 +1,7 @@
 ### Rust Solutions for the CSES Problemset
 
 ###### This repository contains my (accepted) solutions to the problems on the [CSES Problemset](https://cses.fi/problemset/list), implemented in Rust.
+###### My User-ID on CSES :: [https://cses.fi/user/302449](https://cses.fi/user/302449)
 
 #### Solutions
 
