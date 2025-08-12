@@ -115,7 +115,7 @@ impl AVL {
     }
 
     fn rebalance(mut p: Box<Node>) -> Box<Node> {
-        let bf = (Self::height(&p.left) - Self::height(&p.right)) as isize;
+        let bf = (Self::height(&p.left)) as isize - (Self::height(&p.right)) as isize;
 
         if bf > 1 {
             if Self::balance_factor(&p.left) >= 0 {
