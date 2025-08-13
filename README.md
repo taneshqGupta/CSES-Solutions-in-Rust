@@ -33,6 +33,7 @@
 | 2 | [`Hidden Permutation`](https://cses.fi/problemset/task/3139) | [`interactive_problems/2_hidden_permutation_sol1.rs`](./interactive_problems/2_hidden_permutation_sol1.rs) |
 | 2 | [`Hidden Permutation`](https://cses.fi/problemset/task/3139) | [`interactive_problems/2_hidden_permutation_sol2.rs`](./interactive_problems/2_hidden_permutation_sol2.rs) |
 | 3 | [`K'th Highest Score`](https://cses.fi/problemset/task/3305) | [`interactive_problems/3_kth_highest_score.rs`](./interactive_problems/3_kth_highest_score.rs) |
+| 4 | [`Permuted Binary Strings`](https://cses.fi/problemset/task/3228) | [`interactive_problems/4_permuted_binary_strings.rs`](./interactive_problems/4_permuted_binary_strings.rs) |
 
 ---
 
