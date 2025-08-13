@@ -1,3 +1,7 @@
+// CSES Interactive-Problems Q-4 :: Permuted Binary Strings
+// DateSolved: 14 Aug 2025
+// SolvedBy: taneshqGupta 
+
 // use std::io::{stderr, Write};
 
 #[derive(Default, Debug)]

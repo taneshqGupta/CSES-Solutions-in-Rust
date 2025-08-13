@@ -1,6 +1,6 @@
 // CSES Interactive-Problems Q-3 :: K'th Highest Score
 // DateSolved: 2 Aug 2025
-// SolvedBy: taneshqGuptause 
+// SolvedBy: taneshqGupta 
 
 std::{array, collections::HashMap};
 
