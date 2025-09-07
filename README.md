@@ -35,6 +35,7 @@
 | 3 | [`K'th Highest Score`](https://cses.fi/problemset/task/3305) | [`interactive_problems/3_kth_highest_score.rs`](./interactive_problems/3_kth_highest_score.rs) |
 | 4 | [`Permuted Binary Strings`](https://cses.fi/problemset/task/3228) | [`interactive_problems/4_permuted_binary_strings.rs`](./interactive_problems/4_permuted_binary_strings.rs) |
 | 5 | [`Colored Chairs`](https://cses.fi/problemset/task/3273) | [`interactive_problems/5_colored_chairs.rs`](./interactive_problems/5_colored_chairs.rs) |
+| 6 | [`Inversion Sorting`](https://cses.fi/problemset/task/3140) | [`interactive_problems/6_inversion_sorting.rs`](./interactive_problems/6_inversion_sorting.rs) |
 
 ---
 
