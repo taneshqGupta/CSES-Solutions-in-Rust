@@ -22,7 +22,7 @@ fn main() {
     let n: usize = cin.next();
     let mut count = 0;
     let mut i = 5;
-    while i <= n { // algo to find the number of prime factors of i in n.
+    while i <= n { // algo to find the number of prime factors of i in n!.
         count += n / i;
         i *= 5;
     }
