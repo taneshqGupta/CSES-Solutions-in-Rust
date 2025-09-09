@@ -37,6 +37,12 @@
 | 5 | [`Colored Chairs`](https://cses.fi/problemset/task/3273) | [`interactive_problems/5_colored_chairs.rs`](./interactive_problems/5_colored_chairs.rs) |
 | 6 | [`Inversion Sorting`](https://cses.fi/problemset/task/3140) | [`interactive_problems/6_inversion_sorting.rs`](./interactive_problems/6_inversion_sorting.rs) |
 
+##### Graph Algorithms
+
+| # | Problem | Solution |
+|---|---|---|
+| 1 | [`Labyrinth`](https://cses.fi/problemset/task/1193) | [`graph_algorithms/1_labyrinth.rs`](./graph_algorithms/1_labyrinth.rs) |
+
 ---
 
 ###### Each solution file is named with the format: `{problem_number}_{problem_name}.rs`
