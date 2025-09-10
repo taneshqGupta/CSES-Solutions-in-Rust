@@ -43,6 +43,7 @@
 |---|---|---|
 | 1 | [`Labyrinth`](https://cses.fi/problemset/task/1193) | [`graph_algorithms/1_labyrinth.rs`](./graph_algorithms/1_labyrinth.rs) |
 | 2 | [`Message Routes`](https://cses.fi/problemset/task/1667) | [`graph_algorithms/2_message_routes.rs`](./graph_algorithms/2_message_routes.rs) |
+| 3 | [`Monsters`](https://cses.fi/problemset/task/1194) | [`graph_algorithms/3_monsters.rs`](./graph_algorithms/3_monsters.rs) |
 
 ---
 
