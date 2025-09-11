@@ -24,6 +24,7 @@
 | 13 | [`Gray Code`](https://cses.fi/problemset/task/2205) | [`introductory_problems/13_gray_code.rs`](./introductory_problems/13_gray_code.rs) |
 | 14 | [`Tower of Hanoi`](https://cses.fi/problemset/task/2165) | [`introductory_problems/14_tower_of_hanoi_sol1.rs`](./introductory_problems/14_tower_of_hanoi_sol1.rs) |
 | 14 | [`Tower of Hanoi`](https://cses.fi/problemset/task/2165) | [`introductory_problems/14_tower_of_hanoi_sol2.rs`](./introductory_problems/14_tower_of_hanoi_sol2.rs) |
+| 15 | [`Creating Strings`](https://cses.fi/problemset/task/1622) | [`introductory_problems/15_creating_strings.rs`](./introductory_problems/15_creating_strings.rs) |
 
 ##### Interactive Problems
 
