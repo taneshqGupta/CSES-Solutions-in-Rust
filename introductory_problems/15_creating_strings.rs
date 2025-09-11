@@ -1,3 +1,7 @@
+// CSES Introductory-Problems Q-15 :: Creating Strings
+// DateSolved: 11 Sep 2025
+// SolvedBy: taneshqGupta
+
 use std::collections::BTreeSet;
 
 #[derive(Default, Debug)]
@@ -35,11 +39,9 @@ fn main() {
     let mut s: Vec<char> = cin.next::<String>().chars().collect();
     let mut setx: BTreeSet<String> = BTreeSet::new();
     s.sort();
-    loop {
+    setx.insert(s.iter().collect());
+    while next_permutation(&mut s) {
         setx.insert(s.iter().collect());
-        if !next_permutation(&mut s) {
-            break;
-        }
     }
     println!("{}", setx.len());
     for c in setx {
