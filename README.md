@@ -51,6 +51,7 @@
 | # | Problem | Solution |
 |---|---|---|
 | 1 | [`Swap Game`](https://cses.fi/problemset/task/1670) | [`additional_problems_I/1_swap_game.rs`](./additional_problems_I/1_swap_game.rs) |
+| 1 | [`Swap Game`](https://cses.fi/problemset/task/1670) | [`additional_problems_I/1_swap_game_sol2.rs`](./additional_problems_I/1_swap_game_sol2.rs) |
 
 ---
 
