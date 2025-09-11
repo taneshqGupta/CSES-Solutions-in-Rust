@@ -2,7 +2,7 @@
 // DateSolved: 11 Sep 2025
 // SolvedBy: taneshqGupta
 
-use std::collections::{HashMap, VecDeque};
+use std::collections::{HashSet, VecDeque};
 
 #[derive(Default, Debug)]
 struct Scanner(Vec<String>);
@@ -21,6 +21,10 @@ impl Scanner {
 
 fn main() {
     let mut cin = Scanner::default();
+    let mut inp = 0;
+    for _ in 0..9 {
+        inp = inp * 10 + cin.next::<usize>();
+    }
     let swappable = vec![
         (0, 1),
         (0, 3),
@@ -37,10 +41,13 @@ fn main() {
     ];
     let base: usize = 123456789;
     let mut q = VecDeque::new();
-    let mut distances = HashMap::new();
-    q.push_back(base);
-    distances.insert(base, 0usize);
-    while let Some(momo) = q.pop_front() {
+    let mut used = HashSet::new();
+    q.push_back((base, 0usize));
+    while let Some((momo, d)) = q.pop_front() {
+        if inp == momo {
+            println!("{}", d);
+            break;
+        }
         let mut newx = momo;
         let mut xz = [0u8; 9];
         for i in (0..9).rev() {
@@ -54,15 +61,10 @@ fn main() {
             for &digit in &new_xz {
                 newx = newx * 10 + digit as usize;
             }
-            if !distances.contains_key(&newx) {
-                q.push_back(newx);
-                distances.insert(newx, *distances.get(&momo).unwrap() + 1);
+            if !used.contains(&newx) {
+                q.push_back((newx, d + 1));
+                used.insert(newx);
             }
         }
     }
-    let mut inputy = 0;
-    for _ in 0..9 {
-        inputy = inputy * 10 + cin.next::<usize>();
-    }
-    println!("{}", *distances.get(&inputy).unwrap());
 }
