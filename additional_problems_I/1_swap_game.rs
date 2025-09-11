@@ -25,7 +25,7 @@ fn main() {
     for _ in 0..9 {
         inp = inp * 10 + cin.next::<usize>();
     }
-    let swappable = vec![
+    let swappable = [
         (0, 1),
         (0, 3),
         (1, 2),
