@@ -46,6 +46,12 @@
 | 2 | [`Message Routes`](https://cses.fi/problemset/task/1667) | [`graph_algorithms/2_message_routes.rs`](./graph_algorithms/2_message_routes.rs) |
 | 3 | [`Monsters`](https://cses.fi/problemset/task/1194) | [`graph_algorithms/3_monsters.rs`](./graph_algorithms/3_monsters.rs) |
 
+##### Additional Problems I
+
+| # | Problem | Solution |
+|---|---|---|
+| 1 | [`Swap Game`](https://cses.fi/problemset/task/1670) | [`additional_problems_I/1_swap_game.rs`](./additional_problems_I/1_swap_game.rs) |
+
 ---
 
 ###### Each solution file is named with the format: `{problem_number}_{problem_name}.rs`
