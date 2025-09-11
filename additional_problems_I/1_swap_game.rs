@@ -35,21 +35,34 @@ fn main() {
         (6, 7),
         (7, 8),
     ];
-    let base: Vec<u8> = vec![1, 2, 3, 4, 5, 6, 7, 8, 9];
+    let base: usize = 123456789;
     let mut q = VecDeque::new();
     let mut distances = HashMap::new();
-    q.push_back(base.clone());
-    distances.insert(base.clone(), 0);
+    q.push_back(base);
+    distances.insert(base, 0usize);
     while let Some(momo) = q.pop_front() {
+        let mut newx = momo;
+        let mut xz = [0u8; 9];
+        for i in (0..9).rev() {
+            xz[i] = (newx % 10) as u8;
+            newx /= 10;
+        }
         for &(i, j) in &swappable {
-            let mut newx = momo.clone();
-            newx.swap(i, j);
+            let mut new_xz = xz;
+            new_xz.swap(i, j);
+            newx = 0;
+            for &digit in &new_xz {
+                newx = newx * 10 + digit as usize;
+            }
             if !distances.contains_key(&newx) {
-                q.push_back(newx.clone());
-                distances.insert(newx.clone(), *distances.get(&momo).unwrap() + 1);
+                q.push_back(newx);
+                distances.insert(newx, *distances.get(&momo).unwrap() + 1);
             }
         }
     }
-    let inputx: Vec<u8> = (0..9).map(|_| cin.next()).collect();
-    println!("{}", *distances.get(&inputx).unwrap());
+    let mut inputy = 0;
+    for _ in 0..9 {
+        inputy = inputy * 10 + cin.next::<usize>();
+    }
+    println!("{}", *distances.get(&inputy).unwrap());
 }
