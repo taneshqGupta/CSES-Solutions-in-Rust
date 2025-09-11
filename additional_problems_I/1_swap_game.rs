@@ -19,6 +19,22 @@ impl Scanner {
     }
 }
 
+const POWERS: [isize; 9] = [
+    100000000, 10000000, 1000000, 100000, 10000, 1000, 100, 10, 1,
+];
+fn swap(a: &usize, (i, j): (usize, usize)) -> usize {
+    let mut b = *a as isize;
+    let i_multiplier = POWERS[i];
+    let j_multiplier = POWERS[j];
+    let i_digit = (b / i_multiplier) % 10;
+    let j_digit = (b / j_multiplier) % 10;
+    b -= i_digit * i_multiplier;
+    b += j_digit * i_multiplier;
+    b -= j_digit * j_multiplier;
+    b += i_digit * j_multiplier;
+    return b as usize;
+}
+
 fn main() {
     let mut cin = Scanner::default();
     let mut inp = 0;
@@ -48,19 +64,8 @@ fn main() {
             println!("{}", d);
             break;
         }
-        let mut newx = momo;
-        let mut xz = [0u8; 9];
-        for i in (0..9).rev() {
-            xz[i] = (newx % 10) as u8;
-            newx /= 10;
-        }
-        for &(i, j) in &swappable {
-            let mut new_xz = xz;
-            new_xz.swap(i, j);
-            newx = 0;
-            for &digit in &new_xz {
-                newx = newx * 10 + digit as usize;
-            }
+        for &c in &swappable {
+            let newx = swap(&momo, c);
             if !used.contains(&newx) {
                 q.push_back((newx, d + 1));
                 used.insert(newx);
