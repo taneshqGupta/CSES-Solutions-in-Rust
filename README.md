@@ -53,6 +53,12 @@
 | 1 | [`Swap Game`](https://cses.fi/problemset/task/1670) | [`additional_problems_I/1_swap_game.rs`](./additional_problems_I/1_swap_game.rs) |
 | 1 | [`Swap Game`](https://cses.fi/problemset/task/1670) | [`additional_problems_I/1_swap_game_sol2.rs`](./additional_problems_I/1_swap_game_sol2.rs) |
 
+##### Tree Algorithms
+
+| # | Problem | Solution |
+|---|---|---|
+| 1 | [`Tree Distances I`](https://cses.fi/problemset/task/1132) | [`tree_algorithms/tree_distances_I.rs`](./tree_algorithms/tree_distances_I.rs) |
+
 ---
 
 ###### Each solution file is named with the format: `{problem_number}_{problem_name}.rs`
