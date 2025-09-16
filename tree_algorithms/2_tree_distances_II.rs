@@ -48,7 +48,6 @@ fn main() {
     q.push_back(0);
     while !q.is_empty() {
         let momo = q.pop_front().unwrap();
-        // dbg!(&momo, &used, &dist_from_root);
         for &child in &tree[momo] {
             if !used[child] {
                 used[child] = true;
@@ -56,7 +55,6 @@ fn main() {
                 dist_from_root[child] = dist_from_root[momo] + 1;
             }
         }
-        // dbg!(&momo, &used, &dist_from_root);
     }
     // dbg!(dist_from_root);
     let mut sums = vec![0; n];
@@ -67,7 +65,6 @@ fn main() {
     q.push_back(0);
     while !q.is_empty() {
         let momo = q.pop_front().unwrap();
-        // dbg!(&momo, &used, &dist_from_root);
         for &child in &tree[momo] {
             if !used[child] {
                 used[child] = true;
@@ -75,7 +72,6 @@ fn main() {
                 sums[child] = sums[momo] + (n - subtree_sizes[child] - 1) - (subtree_sizes[child] - 1);
             }
         }
-        // dbg!(&momo, &used, &dist_from_root);
     }
     // dbg!(&sums);
     for &sum in &sums {
