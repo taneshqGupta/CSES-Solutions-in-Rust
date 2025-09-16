@@ -57,7 +57,8 @@
 
 | # | Problem | Solution |
 |---|---|---|
-| 1 | [`Tree Distances I`](https://cses.fi/problemset/task/1132) | [`tree_algorithms/tree_distances_I.rs`](./tree_algorithms/tree_distances_I.rs) |
+| 1 | [`Tree Distances I`](https://cses.fi/problemset/task/1132) | [`tree_algorithms/1_tree_distances_I.rs`](./tree_algorithms/1_tree_distances_I.rs) |
+| 2 | [`Tree Distances II`](https://cses.fi/problemset/task/1133) | [`tree_algorithms/2_tree_distances_II.rs`](./tree_algorithms/2_tree_distances_II.rs) |
 
 ---
 
