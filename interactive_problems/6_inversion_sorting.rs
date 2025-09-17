@@ -1,4 +1,4 @@
-// CSES Interactive-Problems Q-6 :: Inversion Sorting
+// CSES Interactive-Problems Q-6 ::  Inversion Sorting
 // DateSolved: 7 Sep 2025
 // SolvedBy: taneshqGupta
 
