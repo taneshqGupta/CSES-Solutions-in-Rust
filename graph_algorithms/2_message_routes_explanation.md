@@ -1,0 +1,5 @@
+## Hint
+BFS shortest path in unweighted graph: build adjacency list representation, then use BFS from node 1 to find shortest path to node n, reconstructing the path via parent pointers.
+
+## Explanation
+The solution finds the shortest route between computers 1 and n in an unweighted network using BFS. It first builds an adjacency list representation where each computer stores its directly connected neighbors. Starting BFS from computer 1, it explores all neighbors level by level, marking visited computers and tracking parent relationships for path reconstruction. The `distances` array tracks the number of hops from the source, and `parents` stores the predecessor of each computer in the shortest path tree. When computer n is reached, the algorithm reconstructs the complete path by following parent pointers backward from n to 1, then reverses the result to get the forward route. BFS guarantees finding the path with minimum number of connections (hops), which is optimal for unweighted graphs. If no path exists, the algorithm detects this when BFS completes without reaching the destination.

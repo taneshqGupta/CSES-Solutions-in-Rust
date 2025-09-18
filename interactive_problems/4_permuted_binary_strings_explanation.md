@@ -1,0 +1,5 @@
+## Hint
+Use interval narrowing: maintain `[low_bound, high_bound]` ranges for each position, then iteratively query division points and use the binary response to shrink intervals until each converges to a single value.
+
+## Explanation
+The solution maintains a range `[low_bound, high_bound]` for each position representing possible permutation values. It repeatedly finds an optimal division point (a value not yet used to split ranges) and queries it. The binary string response indicates for each position whether its value is ≤ (bit '0') or > (bit '1') the division point. Based on this, the algorithm updates interval bounds: '0' bits set upper bounds to the division point, '1' bits set lower bounds to division point + 1. When all possible divisions are exhausted, it uses parity constraints - if a range contains both even and odd numbers, the bit value determines whether to keep the even or odd subset. This process continues until every position's range contains exactly one value, revealing the hidden permutation. The key insight is that each binary query eliminates roughly half the uncertainty across all positions simultaneously.

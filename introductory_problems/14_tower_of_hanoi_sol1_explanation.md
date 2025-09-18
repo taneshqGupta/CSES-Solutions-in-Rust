@@ -1,0 +1,5 @@
+## Hint
+Recursive divide-and-conquer: to move n disks from source to destination, recursively move n-1 to auxiliary, move the largest to destination, then move n-1 from auxiliary to destination.
+
+## Explanation
+The solution implements the classic recursive Tower of Hanoi algorithm using divide-and-conquer. The key insight is that to move n disks from the source tower to the destination tower, you must first move the top n-1 disks to the auxiliary tower (using the destination as temporary space), then move the largest disk directly to the destination, and finally move the n-1 disks from the auxiliary tower to the destination (using the source as temporary space). The algorithm stores each move as a (from, to) pair in a vector. The base case occurs when n=0 (no disks to move). This recursive approach automatically generates the optimal sequence of 2^n - 1 moves required to solve the Tower of Hanoi puzzle, ensuring that no larger disk is ever placed on top of a smaller disk during the process.

@@ -1,0 +1,5 @@
+## Hint
+Insertion sort with binary search: for each element, use binary search to find its correct position among previously placed elements, then insert it there.
+
+## Explanation
+The solution reconstructs the hidden permutation using an insertion sort approach with binary search optimization. It starts with array [1,2,3,...,n] and for each position i from 1 to n-1, it finds where element a[i] should be inserted among the first i already-positioned elements. The binary search queries compare a[i] with elements in the sorted prefix: if the response is "YES" (a[comparable] < a[i]), it searches the right half; if "NO", it searches the left half. Once the correct insertion position is found, it shifts elements to make space and inserts a[i] at the found position. This maintains the sorted order of the prefix while gradually building the permutation. The time complexity is O(n²) due to the insertion operations, and query complexity is O(n log n). The approach works because at each step, the prefix represents the correctly ordered subset of elements processed so far.

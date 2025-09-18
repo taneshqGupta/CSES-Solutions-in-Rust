@@ -1,0 +1,5 @@
+## Hint
+Lexicographic permutation generation: sort the string, then use next_permutation algorithm to systematically generate all unique permutations and store them in a sorted set.
+
+## Explanation
+The solution generates all unique permutations by first sorting the input string to get the lexicographically smallest arrangement, then repeatedly applying the next_permutation algorithm to generate subsequent permutations in lexicographic order. The next_permutation function finds the rightmost position where a character is smaller than its next character, swaps it with the smallest character to its right that's still larger, then reverses the suffix to get the next lexicographic permutation. All generated permutations are stored in a BTreeSet which automatically handles deduplication and maintains sorted order. The algorithm terminates when no next permutation exists (the string is in descending order). This approach systematically visits all unique permutations exactly once, avoiding the exponential overhead of generating duplicates that would occur with naive recursive backtracking on strings with repeated characters.

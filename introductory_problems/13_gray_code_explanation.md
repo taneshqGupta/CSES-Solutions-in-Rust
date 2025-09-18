@@ -1,0 +1,5 @@
+## Hint
+Recursive binary reflection: generate Gray code by taking the previous sequence, appending 0 to each, then appending the reversed sequence with 1s appended.
+
+## Explanation
+The solution generates Gray code using recursive reflection. The base case for n=1 returns [0,1]. For larger n, it recursively generates the Gray code for n-1 bits, then creates the n-bit Gray code by first taking all (n-1)-bit sequences and appending 0 to each, followed by taking all (n-1)-bit sequences in reverse order and appending 1 to each. This reflection property ensures that adjacent sequences differ by exactly one bit. The algorithm uses vectors of booleans to represent binary sequences, with false=0 and true=1. During output, it reverses each sequence (due to how bits were appended) and converts booleans to characters. This recursive approach naturally maintains the Gray code property where consecutive codewords differ in exactly one bit position, and the sequence forms a cycle where the last codeword also differs from the first by one bit.

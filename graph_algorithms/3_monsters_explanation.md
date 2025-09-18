@@ -1,0 +1,5 @@
+## Hint
+Multi-source BFS with monsters and escape: simultaneously track monster spread and player movement using BFS, ensuring the player reaches the boundary before monsters catch up.
+
+## Explanation
+The solution uses multi-source BFS to solve the escape problem by tracking both monster positions and player movement simultaneously. It first identifies all monster positions and the player's starting position, then performs BFS where monsters spread to adjacent cells each turn while the player can move to safe cells. The key insight is that a cell is safe for the player at time t only if the player can reach it before or at the same time as any monster. The algorithm maintains time stamps for when each cell becomes unsafe due to monster presence, then runs BFS for the player ensuring only moves to cells that remain safe. When the player reaches any boundary cell, the path is reconstructed using parent tracking. The solution handles the constraint that monsters move optimally to catch the player by computing the minimum time for monsters to reach each cell first, then allowing player movement only to cells where the player arrives first or simultaneously.

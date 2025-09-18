@@ -1,0 +1,5 @@
+## Hint
+Reconstruct permutation from inversion counts, then use pancake sorting: build the original array from inversion data, then iteratively move each element to its correct position using range reversals.
+
+## Explanation
+The solution first queries all positions to get the inversion count for each, then reconstructs the original permutation using these counts. For reconstruction, it processes positions from right to left: for position i, it finds the (inversions[i]+1)-th smallest remaining number and places it at position i, then removes that number from available choices. After reconstruction, it performs pancake sorting to arrange the array. For each target value i from 1 to n, it finds the current position of value i, then performs a range reversal from position i-1 to the found position to bring value i to its correct location. Each reversal operation is output as a query, and the algorithm continues until the array is sorted (indicated by receiving 0 inversions). This approach efficiently combines permutation reconstruction from inversion counts with the pancake sorting algorithm to systematically fix the array ordering.

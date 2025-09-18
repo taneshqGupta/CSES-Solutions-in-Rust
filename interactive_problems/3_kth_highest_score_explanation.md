@@ -1,0 +1,5 @@
+## Hint
+Binary search on team split sizes with memoized queries: for each split, query both Finland and Sweden team scores, then optimize the bottleneck (minimum) score between the two teams.
+
+## Explanation
+The solution performs binary search over possible team sizes for Finland (from 0 to min(k,n) players). For each candidate split size `mid`, it queries the score for Finland with `mid` players and Sweden with `k-mid` players. The algorithm uses memoization to cache query results and avoid repeated expensive calls. The key insight is that we want to maximize the minimum score between the two teams - if Finland scores lower, we try giving them fewer players (search left), otherwise we try giving them more players (search right). The algorithm runs this binary search from both team perspectives (Finland-first and Sweden-first) and takes the maximum result. This approach efficiently finds the optimal team distribution that maximizes the k-th highest score without exhaustive enumeration of all possible splits.

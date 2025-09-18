@@ -1,0 +1,5 @@
+## Hint
+Character frequency analysis: count character occurrences, ensure at most one character has odd frequency, then construct palindrome by placing half of even-count chars on each side.
+
+## Explanation
+The solution builds a palindrome by analyzing character frequencies using a HashMap. It first counts the occurrence of each character, then checks if at most one character has an odd frequency (since a palindrome can have at most one character appearing an odd number of times, which would be placed in the center). If more than one character has odd frequency, no palindrome is possible. For construction, it creates two vectors: for characters with even counts, it places half the occurrences in the left vector and half in the right vector. For the single character with odd count (if any), it places half the occurrences in each vector and reserves one for the center. The final palindrome is formed by concatenating the left vector, the center character (if exists), and the reversed right vector. This approach ensures the resulting string is a valid palindrome while using all characters from the input.

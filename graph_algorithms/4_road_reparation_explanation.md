@@ -1,0 +1,5 @@
+## Hint
+Minimum spanning tree using Kruskal's algorithm: sort all edges by weight, then use union-find to greedily add edges while avoiding cycles until all cities are connected.
+
+## Explanation
+The solution finds the minimum cost to connect all cities using Kruskal's algorithm for minimum spanning tree (MST). It first reads all road connections and their costs, storing them as edges in a list. The edges are then sorted by cost in ascending order to ensure greedy selection of cheapest connections first. Using a union-find (disjoint set) data structure, the algorithm processes edges in order: for each edge, if it connects two different components (cities not yet connected), it adds the edge to the MST and merges the components. The union-find efficiently tracks which cities belong to the same connected component and prevents cycle formation. The algorithm continues until n-1 edges are added (forming a tree) or all edges are processed. If fewer than n-1 edges are added, some cities remain unreachable and the solution outputs "IMPOSSIBLE". Otherwise, it outputs the total minimum cost required to connect all cities.
