@@ -7,7 +7,7 @@
 
 ##### Introductory Problems
 
-| # | Problem | Solution | Date Solved | Hint/Solution |
+| # | Problem | Solution | Date Solved | Hint/Explaination |
 |---|---|---|---|---|
 | 1 | [`Weird Algorithm`](https://cses.fi/problemset/task/1068) | [`introductory_problems/1_weird_algorithm.rs`](./introductory_problems/1_weird_algorithm.rs) | 24 Jun 2025 | [`Hint/Explaination`](./introductory_problems/1_weird_algorithm_explanation.md) |
 | 2 | [`Missing Number`](https://cses.fi/problemset/task/1083) | [`introductory_problems/2_missing_number.rs`](./introductory_problems/2_missing_number.rs) | 24 Jun 2025 | [`Hint/Explaination`](./introductory_problems/2_missing_number_explanation.md) |
