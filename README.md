@@ -7,58 +7,59 @@
 
 ##### Introductory Problems
 
-| # | Problem | Solution |
-|---|---|---|
-| 1 | [`Weird Algorithm`](https://cses.fi/problemset/task/1068) | [`introductory_problems/1_weird_algorithm.rs`](./introductory_problems/1_weird_algorithm.rs) |
-| 2 | [`Missing Number`](https://cses.fi/problemset/task/1083) | [`introductory_problems/2_missing_number.rs`](./introductory_problems/2_missing_number.rs) |
-| 3 | [`Repetitions`](https://cses.fi/problemset/task/1069) | [`introductory_problems/3_repetitions.rs`](./introductory_problems/3_repetitions.rs) |
-| 4 | [`Increasing Array`](https://cses.fi/problemset/task/1094) | [`introductory_problems/4_increasing_array.rs`](./introductory_problems/4_increasing_array.rs) |
-| 5 | [`Permutations`](https://cses.fi/problemset/task/1070) | [`introductory_problems/5_permutations.rs`](./introductory_problems/5_permutations.rs) |
-| 6 | [`Number Spiral`](https://cses.fi/problemset/task/1071) | [`introductory_problems/6_number_spiral.rs`](./introductory_problems/6_number_spiral.rs) |
-| 7 | [`Two Knights`](https://cses.fi/problemset/task/1072) | [`introductory_problems/7_two_knights.rs`](./introductory_problems/7_two_knights.rs) |
-| 8 | [`Two Sets`](https://cses.fi/problemset/task/1092) | [`introductory_problems/8_two_sets.rs`](./introductory_problems/8_two_sets.rs) |
-| 9 | [`Bit Strings`](https://cses.fi/problemset/task/1617) | [`introductory_problems/9_bit_strings.rs`](./introductory_problems/9_bit_strings.rs) |
-| 10 | [`Trailing Zeroes`](https://cses.fi/problemset/task/1618) | [`introductory_problems/10_trailing_zeroes.rs`](./introductory_problems/10_trailing_zeroes.rs) |
-| 11 | [`Coin Piles`](https://cses.fi/problemset/task/1754) | [`introductory_problems/11_coin_piles.rs`](./introductory_problems/11_coin_piles.rs) |
-| 12 | [`Palindrome Reorder`](https://cses.fi/problemset/task/1755) | [`introductory_problems/12_palindrome_reorder.rs`](./introductory_problems/12_palindrome_reorder.rs) |
-| 13 | [`Gray Code`](https://cses.fi/problemset/task/2205) | [`introductory_problems/13_gray_code.rs`](./introductory_problems/13_gray_code.rs) |
-| 14 | [`Tower of Hanoi`](https://cses.fi/problemset/task/2165) | [`introductory_problems/14_tower_of_hanoi_sol1.rs`](./introductory_problems/14_tower_of_hanoi_sol1.rs) |
-| 14 | [`Tower of Hanoi`](https://cses.fi/problemset/task/2165) | [`introductory_problems/14_tower_of_hanoi_sol2.rs`](./introductory_problems/14_tower_of_hanoi_sol2.rs) |
-| 15 | [`Creating Strings`](https://cses.fi/problemset/task/1622) | [`introductory_problems/15_creating_strings.rs`](./introductory_problems/15_creating_strings.rs) |
+| # | Problem | Solution | Date Solved |
+|---|---|---|---|
+| 1 | [`Weird Algorithm`](https://cses.fi/problemset/task/1068) | [`introductory_problems/1_weird_algorithm.rs`](./introductory_problems/1_weird_algorithm.rs) | 24 Jun 2025 |
+| 2 | [`Missing Number`](https://cses.fi/problemset/task/1083) | [`introductory_problems/2_missing_number.rs`](./introductory_problems/2_missing_number.rs) | 24 Jun 2025 |
+| 3 | [`Repetitions`](https://cses.fi/problemset/task/1069) | [`introductory_problems/3_repetitions.rs`](./introductory_problems/3_repetitions.rs) | 24 Jun 2025 |
+| 4 | [`Increasing Array`](https://cses.fi/problemset/task/1094) | [`introductory_problems/4_increasing_array.rs`](./introductory_problems/4_increasing_array.rs) | 27 Jun 2025 |
+| 5 | [`Permutations`](https://cses.fi/problemset/task/1070) | [`introductory_problems/5_permutations.rs`](./introductory_problems/5_permutations.rs) | 27 Jun 2025 |
+| 6 | [`Number Spiral`](https://cses.fi/problemset/task/1071) | [`introductory_problems/6_number_spiral.rs`](./introductory_problems/6_number_spiral.rs) | 27 Jun 2025 |
+| 7 | [`Two Knights`](https://cses.fi/problemset/task/1072) | [`introductory_problems/7_two_knights.rs`](./introductory_problems/7_two_knights.rs) | 9 Jul 2025 |
+| 8 | [`Two Sets`](https://cses.fi/problemset/task/1092) | [`introductory_problems/8_two_sets.rs`](./introductory_problems/8_two_sets.rs) | 14 Jul 2025 |
+| 9 | [`Bit Strings`](https://cses.fi/problemset/task/1617) | [`introductory_problems/9_bit_strings.rs`](./introductory_problems/9_bit_strings.rs) | 15 Jul 2025 |
+| 10 | [`Trailing Zeroes`](https://cses.fi/problemset/task/1618) | [`introductory_problems/10_trailing_zeroes.rs`](./introductory_problems/10_trailing_zeroes.rs) | 16 Jul 2025 |
+| 11 | [`Coin Piles`](https://cses.fi/problemset/task/1754) | [`introductory_problems/11_coin_piles.rs`](./introductory_problems/11_coin_piles.rs) | 17 Jul 2025 |
+| 12 | [`Palindrome Reorder`](https://cses.fi/problemset/task/1755) | [`introductory_problems/12_palindrome_reorder.rs`](./introductory_problems/12_palindrome_reorder.rs) | 17 Jul 2025 |
+| 13 | [`Gray Code`](https://cses.fi/problemset/task/2205) | [`introductory_problems/13_gray_code.rs`](./introductory_problems/13_gray_code.rs) | 18 Jul 2025 |
+| 14 | [`Tower of Hanoi`](https://cses.fi/problemset/task/2165) | [`introductory_problems/14_tower_of_hanoi_sol1.rs`](./introductory_problems/14_tower_of_hanoi_sol1.rs) | 18 Jul 2025 |
+| 14 | [`Tower of Hanoi`](https://cses.fi/problemset/task/2165) | [`introductory_problems/14_tower_of_hanoi_sol2.rs`](./introductory_problems/14_tower_of_hanoi_sol2.rs) | 18 Jul 2025 |
+| 15 | [`Creating Strings`](https://cses.fi/problemset/task/1622) | [`introductory_problems/15_creating_strings.rs`](./introductory_problems/15_creating_strings.rs) | 11 Sep 2025 |
 
 ##### Interactive Problems
 
-| # | Problem | Solution |
-|---|---|---|
-| 1 | [`Hidden Integer`](https://cses.fi/problemset/task/3112) | [`interactive_problems/1_hidden_integer.rs`](./interactive_problems/1_hidden_integer.rs) |
-| 2 | [`Hidden Permutation`](https://cses.fi/problemset/task/3139) | [`interactive_problems/2_hidden_permutation_sol1.rs`](./interactive_problems/2_hidden_permutation_sol1.rs) |
-| 2 | [`Hidden Permutation`](https://cses.fi/problemset/task/3139) | [`interactive_problems/2_hidden_permutation_sol2.rs`](./interactive_problems/2_hidden_permutation_sol2.rs) |
-| 3 | [`K'th Highest Score`](https://cses.fi/problemset/task/3305) | [`interactive_problems/3_kth_highest_score.rs`](./interactive_problems/3_kth_highest_score.rs) |
-| 4 | [`Permuted Binary Strings`](https://cses.fi/problemset/task/3228) | [`interactive_problems/4_permuted_binary_strings.rs`](./interactive_problems/4_permuted_binary_strings.rs) |
-| 5 | [`Colored Chairs`](https://cses.fi/problemset/task/3273) | [`interactive_problems/5_colored_chairs.rs`](./interactive_problems/5_colored_chairs.rs) |
-| 6 | [`Inversion Sorting`](https://cses.fi/problemset/task/3140) | [`interactive_problems/6_inversion_sorting.rs`](./interactive_problems/6_inversion_sorting.rs) |
+| # | Problem | Solution | Date Solved |
+|---|---|---|---|
+| 1 | [`Hidden Integer`](https://cses.fi/problemset/task/3112) | [`interactive_problems/1_hidden_integer.rs`](./interactive_problems/1_hidden_integer.rs) | 21 Jul 2025 |
+| 2 | [`Hidden Permutation`](https://cses.fi/problemset/task/3139) | [`interactive_problems/2_hidden_permutation_sol1.rs`](./interactive_problems/2_hidden_permutation_sol1.rs) | 23 Jul 2025 |
+| 2 | [`Hidden Permutation`](https://cses.fi/problemset/task/3139) | [`interactive_problems/2_hidden_permutation_sol2.rs`](./interactive_problems/2_hidden_permutation_sol2.rs) | 23 Jul 2025 |
+| 3 | [`K'th Highest Score`](https://cses.fi/problemset/task/3305) | [`interactive_problems/3_kth_highest_score.rs`](./interactive_problems/3_kth_highest_score.rs) | 2 Aug 2025 |
+| 4 | [`Permuted Binary Strings`](https://cses.fi/problemset/task/3228) | [`interactive_problems/4_permuted_binary_strings.rs`](./interactive_problems/4_permuted_binary_strings.rs) | 14 Aug 2025 |
+| 5 | [`Colored Chairs`](https://cses.fi/problemset/task/3273) | [`interactive_problems/5_colored_chairs.rs`](./interactive_problems/5_colored_chairs.rs) | 6 Sep 2025 |
+| 6 | [`Inversion Sorting`](https://cses.fi/problemset/task/3140) | [`interactive_problems/6_inversion_sorting.rs`](./interactive_problems/6_inversion_sorting.rs) | 7 Sep 2025 |
 
 ##### Graph Algorithms
 
-| # | Problem | Solution |
-|---|---|---|
-| 1 | [`Labyrinth`](https://cses.fi/problemset/task/1193) | [`graph_algorithms/1_labyrinth.rs`](./graph_algorithms/1_labyrinth.rs) |
-| 2 | [`Message Routes`](https://cses.fi/problemset/task/1667) | [`graph_algorithms/2_message_routes.rs`](./graph_algorithms/2_message_routes.rs) |
-| 3 | [`Monsters`](https://cses.fi/problemset/task/1194) | [`graph_algorithms/3_monsters.rs`](./graph_algorithms/3_monsters.rs) |
+| # | Problem | Solution | Date Solved |
+|---|---|---|---|
+| 1 | [`Labyrinth`](https://cses.fi/problemset/task/1193) | [`graph_algorithms/1_labyrinth.rs`](./graph_algorithms/1_labyrinth.rs) | 9 Sep 2025 |
+| 2 | [`Message Routes`](https://cses.fi/problemset/task/1667) | [`graph_algorithms/2_message_routes.rs`](./graph_algorithms/2_message_routes.rs) | 9 Sep 2025 |
+| 3 | [`Monsters`](https://cses.fi/problemset/task/1194) | [`graph_algorithms/3_monsters.rs`](./graph_algorithms/3_monsters.rs) | 11 Sep 2025 |
+| 4 | [`Road Reparation`](https://cses.fi/problemset/task/1675) | [`graph_algorithms/4_road_reparation.rs`](./graph_algorithms/4_road_reparation.rs) | 18 Sep 2025 |
 
 ##### Additional Problems I
 
-| # | Problem | Solution |
-|---|---|---|
-| 1 | [`Swap Game`](https://cses.fi/problemset/task/1670) | [`additional_problems_I/1_swap_game.rs`](./additional_problems_I/1_swap_game.rs) |
-| 1 | [`Swap Game`](https://cses.fi/problemset/task/1670) | [`additional_problems_I/1_swap_game_sol2.rs`](./additional_problems_I/1_swap_game_sol2.rs) |
+| # | Problem | Solution | Date Solved |
+|---|---|---|---|
+| 1 | [`Swap Game`](https://cses.fi/problemset/task/1670) | [`additional_problems_I/1_swap_game.rs`](./additional_problems_I/1_swap_game.rs) | 11 Sep 2025 |
+| 1 | [`Swap Game`](https://cses.fi/problemset/task/1670) | [`additional_problems_I/1_swap_game_sol2.rs`](./additional_problems_I/1_swap_game_sol2.rs) | 11 Sep 2025 |
 
 ##### Tree Algorithms
 
-| # | Problem | Solution |
-|---|---|---|
-| 1 | [`Tree Distances I`](https://cses.fi/problemset/task/1132) | [`tree_algorithms/1_tree_distances_I.rs`](./tree_algorithms/1_tree_distances_I.rs) |
-| 2 | [`Tree Distances II`](https://cses.fi/problemset/task/1133) | [`tree_algorithms/2_tree_distances_II.rs`](./tree_algorithms/2_tree_distances_II.rs) |
+| # | Problem | Solution | Date Solved |
+|---|---|---|---|
+| 1 | [`Tree Distances I`](https://cses.fi/problemset/task/1132) | [`tree_algorithms/1_tree_distances_I.rs`](./tree_algorithms/1_tree_distances_I.rs) | 13 Sep 2025 |
+| 2 | [`Tree Distances II`](https://cses.fi/problemset/task/1133) | [`tree_algorithms/2_tree_distances_II.rs`](./tree_algorithms/2_tree_distances_II.rs) | 16 Sep 2025 |
 
 ---
 
