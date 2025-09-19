@@ -46,6 +46,7 @@
 | 2 | [`Message Routes`](https://cses.fi/problemset/task/1667) | [`graph_algorithms/2_message_routes.rs`](./graph_algorithms/2_message_routes.rs) | 9 Sep 2025 | [`Hint/Explaination`](./graph_algorithms/2_message_routes_explanation.md) |
 | 3 | [`Monsters`](https://cses.fi/problemset/task/1194) | [`graph_algorithms/3_monsters.rs`](./graph_algorithms/3_monsters.rs) | 11 Sep 2025 | [`Hint/Explaination`](./graph_algorithms/3_monsters_explanation.md) |
 | 4 | [`Road Reparation`](https://cses.fi/problemset/task/1675) | [`graph_algorithms/4_road_reparation.rs`](./graph_algorithms/4_road_reparation.rs) | 18 Sep 2025 | [`Hint/Explaination`](./graph_algorithms/4_road_reparation_explanation.md) |
+| 5 | [`Road Construction`](https://cses.fi/problemset/task/1676) | [`graph_algorithms/5_road_construction.rs`](./graph_algorithms/5_road_construction.rs) | 19 Sep 2025 | [`Hint/Explaination`](./graph_algorithms/5_road_construction_explanation.md) |
 
 ##### Additional Problems I
 
