@@ -24,7 +24,6 @@ fn main() {
     match n {
         1 => { println!("1"); }
         2 | 3 => { println!("NO SOLUTION"); }
-        4 => { println!("3 1 4 2"); }
         _ => {
             let ans: Vec<usize> = (2..=n).step_by(2).chain((1..=n).step_by(2)).collect();
             for c in ans {
