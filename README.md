@@ -25,6 +25,7 @@
 | 14 | [`Tower of Hanoi`](https://cses.fi/problemset/task/2165) | [`introductory_problems/14_tower_of_hanoi_sol1.rs`](./introductory_problems/14_tower_of_hanoi_sol1.rs) | 18 Jul 2025 | [`Hint/Explaination`](./introductory_problems/14_tower_of_hanoi_sol1_explanation.md) |
 | 14 | [`Tower of Hanoi`](https://cses.fi/problemset/task/2165) | [`introductory_problems/14_tower_of_hanoi_sol2.rs`](./introductory_problems/14_tower_of_hanoi_sol2.rs) | 18 Jul 2025 | [`Hint/Explaination`](./introductory_problems/14_tower_of_hanoi_sol2_explanation.md) |
 | 15 | [`Creating Strings`](https://cses.fi/problemset/task/1622) | [`introductory_problems/15_creating_strings.rs`](./introductory_problems/15_creating_strings.rs) | 11 Sep 2025 | [`Hint/Explaination`](./introductory_problems/15_creating_strings_explanation.md) |
+| 16 | [`Apple Division`](https://cses.fi/problemset/task/1623) | [`introductory_problems/16_apple_division_iterative_bitwise_solution.rs`](./introductory_problems/16_apple_division_iterative_bitwise_solution.rs) | 1 Oct 2025 | [`Hint/Explaination`](./introductory_problems/16_apple_division_iterative_bitwise_explaination.md) |
 
 ##### Interactive Problems
 
