@@ -1,4 +1,4 @@
-// CSES Introductory-Problems Q-16 :: Apple Division - Iterative Bitwise Solution
+// CSES Introductory-Problems Q-16 :: Apple Division -- Recursive Tree Solution
 // DateSolved: 1 Oct 2025
 // SolvedBy: taneshqGupta
 
@@ -23,14 +23,16 @@ fn main() {
     let w: Vec<usize> = (0..n).map(|_| cin.next()).collect();
     let total_sum: usize = w.iter().sum();
     let mut min_diff = 1e19 as usize;
-    for i in 0..(1 << n) {
-        let mut curr_sum = 0;
-        for j in 0..n {
-            if (i >> j) & 1 == 1 {
-                curr_sum += w[j];
-            }
+
+    fn recurse(i: usize, curr_sum: usize, total_sum: usize, w: &Vec<usize>, min_diff: &mut usize) {
+        if i == w.len() {
+            *min_diff = std::cmp::min(*min_diff, curr_sum.abs_diff(curr_sum.abs_diff(total_sum)));
+            return;
         }
-        min_diff = min_diff.min(curr_sum.abs_diff(curr_sum.abs_diff(total_sum)));
+        recurse(i + 1, curr_sum, total_sum, w, min_diff);
+        recurse(i + 1, curr_sum + w[i], total_sum, w, min_diff);
     }
+    
+    recurse(0, 0, total_sum, &w, &mut min_diff);
     println!("{}", min_diff);
 }
