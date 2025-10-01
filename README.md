@@ -10,7 +10,7 @@
 | # | Problem | Solution | Date Solved | Hint |
 |---|---|---|---|---|
 | 1 | [`Weird Algorithm`](https://cses.fi/problemset/task/1068) | [`1_weird_algorithm.rs`](./introductory_problems/1_weird_algorithm.rs) | 24 Jun 2025 | [`Hint`](./introductory_problems/1_weird_algorithm_explanation.md) |
-| 2 | [`Missing Number`](https://cses.fi/problemset/task/1083) | [`2_missing_number.rs`](./introductory_problems/2_missing_number.rs) | `24 Jun 2025` | [`Hint`](./introductory_problems/2_missing_number_explanation.md) |
+| 2 | [`Missing Number`](https://cses.fi/problemset/task/1083) | [`2_missing_number.rs`](./introductory_problems/2_missing_number.rs) | `24-Jun-2025` | [`Hint`](./introductory_problems/2_missing_number_explanation.md) |
 | 3 | [`Repetitions`](https://cses.fi/problemset/task/1069) | [`3_repetitions.rs`](./introductory_problems/3_repetitions.rs) | 24 Jun 2025 | [`Hint`](./introductory_problems/3_repetitions_explanation.md) |
 | 4 | [`Increasing Array`](https://cses.fi/problemset/task/1094) | [`4_increasing_array.rs`](./introductory_problems/4_increasing_array.rs) | 27 Jun 2025 | [`Hint`](./introductory_problems/4_increasing_array_explanation.md) |
 | 5 | [`Permutations`](https://cses.fi/problemset/task/1070) | [`5_permutations.rs`](./introductory_problems/5_permutations.rs) | 27 Jun 2025 | [`Hint`](./introductory_problems/5_permutations_explanation.md) |
