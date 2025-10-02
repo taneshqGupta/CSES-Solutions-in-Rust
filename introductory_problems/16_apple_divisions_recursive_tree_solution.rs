@@ -34,5 +34,5 @@ fn main() {
     }
     
     recurse(0, 0, total_sum, &w, &mut min_diff);
-    println!("{}", min_diff);;
+    println!("{}", min_diff);
 }
