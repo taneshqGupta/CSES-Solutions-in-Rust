@@ -1,3 +1,7 @@
+// CSES Introductory-Problems Q-17 :: Chessboard & Queens
+// DateSolved: 5 Oct 2025
+// SolvedBy: taneshqGupta
+
 #[derive(Default, Debug)]
 struct Scanner(Vec<String>);
 impl Scanner {
