@@ -27,6 +27,7 @@
 | `15` | [`Creating Strings`](https://cses.fi/problemset/task/1622) | [`15_creating_strings.rs`](./introductory_problems/15_creating_strings.rs) | `11-Sep-2025` | [`Hint`](./introductory_problems/15_creating_strings_explanation.md) |
 | `16` | [`Apple Division`](https://cses.fi/problemset/task/1623) | [`16_apple_division_iterative_bitwise.rs`](./introductory_problems/16_apple_division_iterative_bitwise_solution.rs) | `01-Oct-2025` | [`Hint`](./introductory_problems/16_apple_division_iterative_bitwise_explaination.md) |
 | `16` | [`Apple Division`](https://cses.fi/problemset/task/1623) | [`16_apple_divisions_recursive_tree.rs`](./introductory_problems/16_apple_divisions_recursive_tree_solution.rs) | `01-Oct-2025` | [`Hint`](./introductory_problems/16_apple_division_recursive_tree_explaination.md) |
+| `17` | [`Chessboard and Queens`](https://cses.fi/problemset/task/1624) | [`17_chessboard_and_queens.rs`](./introductory_problems/17_chessboard_and_queens.rs) | `05-Oct-2025` | [`Hint`](./introductory_problems/17_chessboard_and_queens_explaination.md) |
 
 ##### Interactive Problems
 
