@@ -56,7 +56,7 @@
 | # | Problem | Solution | Date Solved | Hint |
 |---|---|---|---|---|
 | `1` | [`Swap Game`](https://cses.fi/problemset/task/1670) | [`1_swap_game.rs`](./additional_problems_I/1_swap_game.rs) | `11-Sep-2025` | [`Hint`](./additional_problems_I/1_swap_game_explanation.md) |
-| `1` | [`Swap Game`](https://cses.fi/problemset/task/1670) | [`1_swap_game_sol2.rs`](./additional_problems_I/1_swap_game_sol2.rs) | `11-Sep-2025` | [`Hint`](./additional_problems_I/1_swap_game_sol2_explanation.md) |
+
 
 ##### Tree Algorithms
 

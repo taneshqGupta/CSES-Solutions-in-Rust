@@ -1,5 +1,0 @@
-## Hint
-Alternative BFS implementation: same state-space search strategy as solution 1 but with different optimization techniques, data structure choices, or state representation methods.
-
-## Explanation
-This solution follows the identical BFS state-space search approach as the first swap game solution but implements different optimization strategies or uses alternative data structures. The core algorithm remains the same: model each 3×3 grid configuration as a graph node, use BFS to explore all reachable states through adjacent swaps, and find the minimum moves to reach the sorted target state. The differences may include using different state encodings (string vs integer vs custom hash), alternative visited state tracking mechanisms (HashSet vs HashMap vs custom), different queue implementations, or optimizations like bidirectional BFS or A* heuristics. Both solutions guarantee finding the optimal solution due to BFS's level-by-level exploration property, but this version might offer better memory usage, faster state comparison, or improved constant factors in the time complexity through more efficient implementation choices.

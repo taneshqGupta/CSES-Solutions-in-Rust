@@ -19,29 +19,15 @@ impl Scanner {
     }
 }
 
-const POWERS: [isize; 9] = [
-    100000000, 10000000, 1000000, 100000, 10000, 1000, 100, 10, 1,
-];
-fn swap(a: &usize, (i, j): (usize, usize)) -> usize {
-    let mut b = *a as isize;
-    let i_multiplier = POWERS[i];
-    let j_multiplier = POWERS[j];
-    let i_digit = (b / i_multiplier) % 10;
-    let j_digit = (b / j_multiplier) % 10;
-    b -= i_digit * i_multiplier;
-    b += j_digit * i_multiplier;
-    b -= j_digit * j_multiplier;
-    b += i_digit * j_multiplier;
-    return b as usize;
-}
-
 fn main() {
     let mut cin = Scanner::default();
-    let mut inp = 0;
+    let mut inp: usize = 0;
     for _ in 0..9 {
-        inp = inp * 10 + cin.next::<usize>();
+        let digit = cin.next::<usize>();
+        inp = inp * 10 + digit;
     }
-    let swappable = [
+
+    let swappable = vec![
         (0, 1),
         (0, 3),
         (1, 2),
@@ -55,17 +41,32 @@ fn main() {
         (6, 7),
         (7, 8),
     ];
+
+    let powers = [
+        1, 10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000,
+    ];
+
     let base: usize = 123456789;
     let mut q = VecDeque::new();
     let mut used = HashSet::new();
-    q.push_back((base, 0usize));
+    q.push_back((base, 0));
+    used.insert(base);
+
     while let Some((momo, d)) = q.pop_front() {
-        if inp == momo {
+        if momo == inp {
             println!("{}", d);
-            break;
+            return;
         }
-        for &c in &swappable {
-            let newx = swap(&momo, c);
+        for &(i, j) in &swappable {
+            let ipow = powers[i];
+            let jpow = powers[j];
+            let x = (momo / ipow) % 10;
+            let y = (momo / jpow) % 10;
+            let mut newx = momo;
+            newx = newx - x * ipow;
+            newx = newx + y * ipow;
+            newx = newx - y * jpow;
+            newx = newx + x * jpow;
             if !used.contains(&newx) {
                 q.push_back((newx, d + 1));
                 used.insert(newx);
@@ -73,3 +74,4 @@ fn main() {
         }
     }
 }
+
