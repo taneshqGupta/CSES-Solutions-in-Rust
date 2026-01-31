@@ -1,6 +1,0 @@
-## Hint
-The problem cannot be solved in polynomial time. It is NP-complete. Also, the constraint is 20.
-
-## Explaination
-Obviously we need to go over all the possible groupings. How many possible groupings you ask? There are exactly 2^n possible groups for n apples. This is because every apple has two independent choices. 
-Now to solve this using recursion, we must make a function. The function will take index as argument, and in every call go the next index two times, once with the weight of the index added to the current sum of the function, and once with the weight of the index not added to the current sum of the function, this splits the path into two. At every step the number of paths double, we must make n such steps, in the end, there will be 2^n paths, with 2^n different 'current' sums. These are the leaf nodes of our recursion tree. This is when we cant go the "next index" because doing so would hit us array-out-of-bounds, here we actually just use the current sum, as the group-sum of the entire path is now calculated. Now the rest of the solution is straight-forward. Time Complexity is O(2^n) making it faster than the iterative bitwise approach.

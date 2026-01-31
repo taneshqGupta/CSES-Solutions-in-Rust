@@ -1,5 +1,0 @@
-## Hint
-Two-pass tree DP with rerooting: first DFS computes distances assuming arbitrary root, second pass uses rerooting technique to adjust distances for each node as root.
-
-## Explanation
-The solution uses tree dynamic programming with rerooting to efficiently compute the maximum distance from each node to any other node in the tree. The algorithm performs two DFS passes: the first pass treats an arbitrary node (typically node 1) as the root and computes the maximum distance going down into each subtree using standard tree DP. For each node, it tracks the two largest distances among its children to handle the case where the maximum path passes through the node. The second pass uses the rerooting technique to propagate information from parent to child, adjusting the maximum distances to account for paths going up through the parent. During rerooting, when moving the root from parent to child, the algorithm updates the child's maximum distance by considering both its original subtree distances and the new distance coming from the parent's direction. 

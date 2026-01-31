@@ -1,5 +1,0 @@
-## Hint
-BFS pathfinding with parent tracking: use breadth-first search to find the shortest path from A to B, then reconstruct the path using stored parent pointers and direction moves.
-
-## Explanation
-The solution implements BFS (breadth-first search) to find the shortest path in the labyrinth from point A to point B. It maintains several 2D arrays: `used` to track visited cells, `parents` to store the parent of each cell for path reconstruction, `last_move` to remember which direction was taken to reach each cell, and `distances` for step counts. Starting from source A, it explores neighboring cells (up, down, left, right) level by level, marking each as visited and recording its parent. When the destination B is reached, it reconstructs the path by following parent pointers backward from B to A, then reverses the sequence to get the forward path. The direction characters (U/D/L/R) are determined from the parent relationships. BFS guarantees finding the shortest path in unweighted grids, making this approach optimal for the minimum steps requirement.
