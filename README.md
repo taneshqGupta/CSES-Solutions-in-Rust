@@ -57,6 +57,12 @@
 |---|---|---|---|
 | `1` | [`Swap Game`](https://cses.fi/problemset/task/1670) | [`1_swap_game.rs`](./additional_problems_I/1_swap_game.rs) | `11-Sep-2025` |
 
+##### Additional Problems II
+
+| # | Problem | Solution | Date Solved |
+|---|---|---|---|
+| `1` | [`MEX Grid Queries`](https://cses.fi/problemset/task/1157) | [`1_mex_grid_queries.rs`](./additional_problems_II/1_mex_grid_queries.rs) | `01-Feb-2026` |
+
 
 ##### Tree Algorithms
 
