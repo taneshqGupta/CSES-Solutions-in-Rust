@@ -27,7 +27,7 @@
 | `16` | [`Apple Division`](https://cses.fi/problemset/task/1623) | [`16_apple_division_iterative_bitwise.rs`](./introductory_problems/16_apple_division_iterative_bitwise_solution.rs) | `01-Oct-2025` |
 | `16` | [`Apple Division`](https://cses.fi/problemset/task/1623) | [`16_apple_divisions_recursive_tree.rs`](./introductory_problems/16_apple_divisions_recursive_tree_solution.rs) | `01-Oct-2025` |
 | `17` | [`Chessboard and Queens`](https://cses.fi/problemset/task/1624) | [`17_chessboard_and_queens.rs`](./introductory_problems/17_chessboard_and_queens.rs) | `05-Oct-2025` |
-| `18` | [`Raab Game I`](https://cses.fi/problemset/task/2430) | [`18_raab_game_1.rs`](./introductory_problems/18_raab_game_1.rs) | `01-Feb-2026` |
+| `18` | [`Raab Game I`](https://cses.fi/problemset/task/3399) | [`18_raab_game_1.rs`](./introductory_problems/18_raab_game_1.rs) | `01-Feb-2026` |
 
 ##### Interactive Problems
 
