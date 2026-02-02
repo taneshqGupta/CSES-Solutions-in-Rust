@@ -64,6 +64,12 @@
 |---|---|---|---|
 | `1` | [`MEX Grid Queries`](https://cses.fi/problemset/task/1157) | [`1_mex_grid_queries.rs`](./additional_problems_II/1_mex_grid_queries.rs) | `01-Feb-2026` |
 
+##### Mathematics
+
+| # | Problem | Solution | Date Solved |
+|---|---|---|---|
+| `1` | [`Nim Game I`](https://cses.fi/problemset/task/1730) | [`1_nim_game_I.rs`](./mathematics/1_nim_game_I.rs) | `03-Feb-2026` |
+
 
 ##### Tree Algorithms
 
