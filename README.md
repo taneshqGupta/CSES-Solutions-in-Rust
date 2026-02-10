@@ -69,6 +69,7 @@
 | # | Problem | Solution | Date Solved |
 |---|---|---|---|
 | `1` | [`Nim Game I`](https://cses.fi/problemset/task/1730) | [`1_nim_game_I.rs`](./mathematics/1_nim_game_I.rs) | `03-Feb-2026` |
+| `2` | [`Nim Game II`](https://cses.fi/problemset/task/1098) | [`2_nim_game_II.rs`](./mathematics/2_nim_game_II.rs) | `10-Feb-2026` |
 
 
 ##### Tree Algorithms
