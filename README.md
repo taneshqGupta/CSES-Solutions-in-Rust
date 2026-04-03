@@ -29,6 +29,7 @@
 | `16` | [`Apple Division`](https://cses.fi/problemset/task/1623) | [`16_apple_divisions_recursive_tree.rs`](./introductory_problems/16_apple_divisions_recursive_tree_solution.rs) | `01-Oct-2025` |
 | `17` | [`Chessboard and Queens`](https://cses.fi/problemset/task/1624) | [`17_chessboard_and_queens.rs`](./introductory_problems/17_chessboard_and_queens.rs) | `05-Oct-2025` |
 | `18` | [`Raab Game I`](https://cses.fi/problemset/task/3399) | [`18_raab_game_1.rs`](./introductory_problems/18_raab_game_1.rs) | `01-Feb-2026` |
+| `20` | [`Knight Moves Grid`](https://cses.fi/problemset/task/3217) | [`20_knight_moves_grid.rs`](./introductory_problems/20_knight_moves_grid.rs) | `04-Apr-2026` |
 
 ##### Interactive Problems
 
