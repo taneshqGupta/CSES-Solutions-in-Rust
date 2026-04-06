@@ -22,9 +22,7 @@ impl Scanner {
 fn main() {
     let mut cin = Scanner::default();
     let [n, m] = array::from_fn(|_| cin.next::<usize>());
-    let mut grid: Vec<Vec<char>> = (0..n)
-        .map(|_| cin.next::<String>().chars().collect())
-        .collect();
+    let mut grid: Vec<Vec<char>> = (0..n).map(|_| cin.next::<String>().chars().collect()).collect();
     for i in 0..n {
         for j in 0..m {
             if (i + j) % 2 == 0 {
