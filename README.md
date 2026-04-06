@@ -30,6 +30,7 @@
 | `17` | [`Chessboard and Queens`](https://cses.fi/problemset/task/1624) | [`17_chessboard_and_queens.rs`](./introductory_problems/17_chessboard_and_queens.rs) | `05-Oct-2025` |
 | `18` | [`Raab Game I`](https://cses.fi/problemset/task/3399) | [`18_raab_game_1.rs`](./introductory_problems/18_raab_game_1.rs) | `01-Feb-2026` |
 | `20` | [`Knight Moves Grid`](https://cses.fi/problemset/task/3217) | [`20_knight_moves_grid.rs`](./introductory_problems/20_knight_moves_grid.rs) | `04-Apr-2026` |
+| `21` | [`Grid Colouring I`](https://cses.fi/problemset/task/3311) | [`21_grid_colouring_I.rs`](./introductory_problems/21_grid_colouring_I.rs) | `06-Apr-2026` |
 
 ##### Interactive Problems
 
