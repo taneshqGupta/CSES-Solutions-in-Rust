@@ -96,10 +96,8 @@
 
 ###### To compile and run solutions:
 
-```bash
-cd introductory_problems
-rustc 1_weird_algorithm.rs -o sol
-./sol
+```fish
+rustc $file -o sol && ./sol >std.out 2>std.err && bat --language=log std.out std.err && rm -f sol std.out std.err
 ```
 
 ---
