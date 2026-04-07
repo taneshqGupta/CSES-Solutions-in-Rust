@@ -31,6 +31,8 @@
 | `18` | [`Raab Game I`](https://cses.fi/problemset/task/3399) | [`18_raab_game_1.rs`](./introductory_problems/18_raab_game_1.rs) | `01-Feb-2026` |
 | `20` | [`Knight Moves Grid`](https://cses.fi/problemset/task/3217) | [`20_knight_moves_grid.rs`](./introductory_problems/20_knight_moves_grid.rs) | `04-Apr-2026` |
 | `21` | [`Grid Colouring I`](https://cses.fi/problemset/task/3311) | [`21_grid_colouring_I.rs`](./introductory_problems/21_grid_colouring_I.rs) | `06-Apr-2026` |
+| `22` | [`Digit Queries`](https://cses.fi/problemset/task/2431) | [`22_digit_queries.rs`](./introductory_problems/22_digit_queries.rs) | `06-Apr-2026` |
+| `23` | [`String Reorder`](https://cses.fi/problemset/task/1743) | [`23_string_reorder_sol1.rs`](./introductory_problems/23_string_reorder_sol1.rs) | `08-Apr-2026` |
 
 ##### Interactive Problems
 
