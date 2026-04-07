@@ -33,6 +33,7 @@
 | `21` | [`Grid Colouring I`](https://cses.fi/problemset/task/3311) | [`21_grid_colouring_I.rs`](./introductory_problems/21_grid_colouring_I.rs) | `06-Apr-2026` |
 | `22` | [`Digit Queries`](https://cses.fi/problemset/task/2431) | [`22_digit_queries.rs`](./introductory_problems/22_digit_queries.rs) | `06-Apr-2026` |
 | `23` | [`String Reorder`](https://cses.fi/problemset/task/1743) | [`23_string_reorder_sol1.rs`](./introductory_problems/23_string_reorder_sol1.rs) | `08-Apr-2026` |
+| `23` | [`String Reorder`](https://cses.fi/problemset/task/1743) | [`23_string_reorder_sol2.rs`](./introductory_problems/23_string_reorder_sol2.rs) | `08-Apr-2026` |
 
 ##### Interactive Problems
 
