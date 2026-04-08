@@ -36,6 +36,14 @@
 | `23` | [`String Reorder`](https://cses.fi/problemset/task/1743) | [`23_string_reorder_sol2.rs`](./introductory_problems/23_string_reorder_sol2.rs) | `08-Apr-2026` |
 | `24` | [`Grid Path Description`](https://cses.fi/problemset/task/1625) | [`24_grid_path_description.rs`](./introductory_problems/24_grid_path_description.rs) | `08-Apr-2026` |
 
+##### Sorting & Searching
+
+| # | Problem | Solution | Date Solved |
+|---|---|---|---|
+| `1` | [`Distinct Numbers`](https://cses.fi/problemset/task/1621) | [`1_distinct_numbers.rs`](./interactive_problems/1_distinct_numbers.rs) | `08-Apr-2026` |
+
+
+
 ##### Interactive Problems
 
 | # | Problem | Solution | Date Solved |
