@@ -43,6 +43,7 @@
 | `1` | [`Distinct Numbers`](https://cses.fi/problemset/task/1621) | [`1_distinct_numbers.rs`](./sorting_and_searching/1_distinct_numbers.rs) | `08-Apr-2026` |
 | `2` | [`Apartments`](https://cses.fi/problemset/task/1084) | [`2_apartments.rs`](./sorting_and_searching/2_apartments.rs) | `08-Apr-2026` |
 | `3` | [`Ferris Wheel`](https://cses.fi/problemset/task/1090) | [`3_ferris_wheel.rs`](./sorting_and_searching/3_ferris_wheel.rs) | `08-Apr-2026` |
+| `4` | [`Concert Tickets`](https://cses.fi/problemset/task/1091) | [`4_concert_tickets.rs`](./sorting_and_searching/4_concert_tickets.rs) | `08-Apr-2026` |
 
 
 
