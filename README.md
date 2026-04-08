@@ -41,6 +41,7 @@
 | # | Problem | Solution | Date Solved |
 |---|---|---|---|
 | `1` | [`Distinct Numbers`](https://cses.fi/problemset/task/1621) | [`1_distinct_numbers.rs`](./sorting_and_searching/1_distinct_numbers.rs) | `08-Apr-2026` |
+| `2` | [`Apartments`](https://cses.fi/problemset/task/1084) | [`2_apartments.rs`](./sorting_and_searching/2_apartments.rs) | `08-Apr-2026` |
 
 
 
