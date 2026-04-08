@@ -40,7 +40,7 @@
 
 | # | Problem | Solution | Date Solved |
 |---|---|---|---|
-| `1` | [`Distinct Numbers`](https://cses.fi/problemset/task/1621) | [`1_distinct_numbers.rs`](./interactive_problems/1_distinct_numbers.rs) | `08-Apr-2026` |
+| `1` | [`Distinct Numbers`](https://cses.fi/problemset/task/1621) | [`1_distinct_numbers.rs`](./sorting_and_searching/1_distinct_numbers.rs) | `08-Apr-2026` |
 
 
 
