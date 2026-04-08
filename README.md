@@ -34,6 +34,7 @@
 | `22` | [`Digit Queries`](https://cses.fi/problemset/task/2431) | [`22_digit_queries.rs`](./introductory_problems/22_digit_queries.rs) | `06-Apr-2026` |
 | `23` | [`String Reorder`](https://cses.fi/problemset/task/1743) | [`23_string_reorder_sol1.rs`](./introductory_problems/23_string_reorder_sol1.rs) | `08-Apr-2026` |
 | `23` | [`String Reorder`](https://cses.fi/problemset/task/1743) | [`23_string_reorder_sol2.rs`](./introductory_problems/23_string_reorder_sol2.rs) | `08-Apr-2026` |
+| `24` | [`Grid Path Description`](https://cses.fi/problemset/task/1625) | [`24_grid_path_description.rs`](./introductory_problems/24_grid_path_description.rs) | `08-Apr-2026` |
 
 ##### Interactive Problems
 
