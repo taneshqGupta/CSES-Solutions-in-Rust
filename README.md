@@ -47,6 +47,7 @@
 | `5` | [`Restaurant Customers`](https://cses.fi/problemset/task/1619) | [`5_restaurant_customers.rs`](./sorting_and_searching/5_restaurant_customers.rs) | `10-Apr-2026` |
 | `6` | [`Movie Festival`](https://cses.fi/problemset/task/1629) | [`6_movie_festival.rs`](./sorting_and_searching/6_movie_festival.rs) | `12-Apr-2026` |
 | `7` | [`Sum of Two Values`](https://cses.fi/problemset/task/1640) | [`7_sum_of_two_values.rs`](./sorting_and_searching/7_sum_of_two_values.rs) | `12-Apr-2026` |
+| `7` | [`Sum of Two Values`](https://cses.fi/problemset/task/1640) | [`7_sum_of_two_values_sol2.rs`](./sorting_and_searching/7_sum_of_two_values_sol2.rs) | `12-Apr-2026` |
 
 
 
