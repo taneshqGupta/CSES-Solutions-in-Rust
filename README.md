@@ -52,6 +52,7 @@
 | `9` | [`Stick Lengths`](https://cses.fi/problemset/task/1074) | [`9_stick_lengths.rs`](./sorting_and_searching/9_stick_lengths.rs) | `13-Apr-2026` |
 | `9` | [`Stick Lengths`](https://cses.fi/problemset/task/1074) | [`9_stick_lengths_sol2.rs`](./sorting_and_searching/9_stick_lengths_sol2.rs) | `13-Apr-2026` |
 | `10` | [`Missing Coin Sum`](https://cses.fi/problemset/task/2183) | [`10_missing_coin_sum.rs`](./sorting_and_searching/10_missing_coin_sum.rs) | `14-Apr-2026` |
+| `11` | [`Collecting Numbers`](https://cses.fi/problemset/task/2216) | [`11_collecting_numbers.rs`](./sorting_and_searching/11_collecting_numbers.rs) | `14-Apr-2026` |
 
 
 
