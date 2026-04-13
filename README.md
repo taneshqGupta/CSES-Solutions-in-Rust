@@ -49,6 +49,7 @@
 | `7` | [`Sum of Two Values`](https://cses.fi/problemset/task/1640) | [`7_sum_of_two_values.rs`](./sorting_and_searching/7_sum_of_two_values.rs) | `12-Apr-2026` |
 | `7` | [`Sum of Two Values`](https://cses.fi/problemset/task/1640) | [`7_sum_of_two_values_sol2.rs`](./sorting_and_searching/7_sum_of_two_values_sol2.rs) | `12-Apr-2026` |
 | `8` | [`Maximum Subarray Sum`](https://cses.fi/problemset/task/1643) | [`8_maximum_subarray_sum.rs`](./sorting_and_searching/8_maximum_subarray_sum.rs) | `13-Apr-2026` |
+| `9` | [`Stick Lengths`](https://cses.fi/problemset/task/1074) | [`9_stick_lengths.rs`](./sorting_and_searching/9_stick_lengths.rs) | `13-Apr-2026` |
 
 
 
