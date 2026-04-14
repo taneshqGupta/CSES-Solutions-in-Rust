@@ -23,8 +23,7 @@ fn main() {
     let mut cin = Scanner::default();
     let n: usize = cin.next();
     let x: Vec<usize> = (0..n).map(|_| cin.next()).collect();
-    let mut num_subarrays_ending_at: Vec<usize> = vec![0; n];
-    num_subarrays_ending_at[0] = 1;
+    let mut subarrays = 1;
     let mut setx: HashSet<usize> = HashSet::new();
     setx.insert(x[0]);
     let mut startpoint: usize = 0;
@@ -35,8 +34,7 @@ fn main() {
             startpoint += 1;
         }
         setx.insert(x[i]);
-        num_subarrays_ending_at[i] = i - startpoint + 1;
+        subarrays += i - startpoint + 1;
     }
-    let sum: usize = num_subarrays_ending_at.iter().sum();
-    println!("{}", sum);
+    println!("{}", subarrays);
 }
