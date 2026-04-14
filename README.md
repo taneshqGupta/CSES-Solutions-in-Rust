@@ -55,6 +55,7 @@
 | `11` | [`Collecting Numbers`](https://cses.fi/problemset/task/2216) | [`11_collecting_numbers.rs`](./sorting_and_searching/11_collecting_numbers.rs) | `14-Apr-2026` |
 | `12` | [`Collecting Numbers II`](https://cses.fi/problemset/task/2217) | [`12_collecting_numbers_II.rs`](./sorting_and_searching/12_collecting_numbers_II.rs) | `14-Apr-2026` |
 | `13` | [`Playlist`](https://cses.fi/problemset/task/1141) | [`13_playlist.rs`](./sorting_and_searching/13_playlist.rs) | `14-Apr-2026` |
+| `14` | [`Playlist`](https://cses.fi/problemset/task/1073) | [`14_towers.rs`](./sorting_and_searching/14_towers.rs) | `14-Apr-2026` |
 
 
 
