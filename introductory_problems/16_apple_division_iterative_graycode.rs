@@ -1,5 +1,5 @@
 // CSES Introductory-Problems Q-16 :: Apple Division - Iterative Bitwise GrayCode Solution
-// DateSolved: 3 Oct 2025
+// DateSolved: 14 April 2026
 // SolvedBy: taneshqGupta
 
 #[derive(Default, Debug)]
@@ -19,23 +19,22 @@ impl Scanner {
 
 fn main() {
     let mut cin = Scanner::default();
-    let n: usize = cin.next();
+    let n: u8 = cin.next();
     let w: Vec<usize> = (0..n).map(|_| cin.next()).collect();
+    let limit = (1 << n) as u32;
+    let mut gray = 0;
+    let mut basket_one_sum = 0;
     let total_sum: usize = w.iter().sum();
-    let mut min_diff = 1e19 as usize;
-    let mut curr_sum: usize = 0;
-    let mut prev_gray: usize = 0;
-    for i in 1..(1 << n) {
-        let gray_i = i ^ (i >> 1);
-        let mask: usize = prev_gray ^ gray_i;
-        let changex = mask.trailing_zeros() as usize;
-        if (gray_i >> changex) % 2 == 1 {
-            curr_sum += w[changex];
+    let mut min_diff = total_sum;
+    for i in 1..limit {
+        let bit_to_flip = i.trailing_zeros();
+        if gray & (1 << bit_to_flip) == 0 {
+            basket_one_sum += w[bit_to_flip as usize];
         } else {
-            curr_sum -= w[changex];
+            basket_one_sum -= w[bit_to_flip as usize];
         }
-        min_diff = min_diff.min(curr_sum.abs_diff(curr_sum.abs_diff(total_sum)));
-        prev_gray = gray_i;
+        gray ^= 1 << bit_to_flip;
+        min_diff = min_diff.min(basket_one_sum.abs_diff(total_sum - basket_one_sum));
     }
     println!("{}", min_diff);
 }
