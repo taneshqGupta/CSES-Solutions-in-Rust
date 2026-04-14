@@ -22,6 +22,7 @@
 | `12` | [`Palindrome Reorder`](https://cses.fi/problemset/task/1755) | [`12_palindrome_reorder.rs`](./introductory_problems/12_palindrome_reorder.rs) | `17-Jul-2025` |
 | `13` | [`Gray Code`](https://cses.fi/problemset/task/2205) | [`13_gray_code.rs`](./introductory_problems/13_gray_code.rs) | `18-Jul-2025` |
 | `13` | [`Gray Code`](https://cses.fi/problemset/task/2205) | [`13_gray_code_sol2.rs`](./introductory_problems/13_gray_code_sol2.rs) | `14-Apr-2026` |
+| `13` | [`Gray Code`](https://cses.fi/problemset/task/2205) | [`13_gray_code_sol3.rs`](./introductory_problems/13_gray_code_sol3.rs) | `14-Apr-2026` |
 | `14` | [`Tower of Hanoi`](https://cses.fi/problemset/task/2165) | [`14_tower_of_hanoi_sol1.rs`](./introductory_problems/14_tower_of_hanoi_sol1.rs) | `18-Jul-2025` |
 | `14` | [`Tower of Hanoi`](https://cses.fi/problemset/task/2165) | [`14_tower_of_hanoi_sol2.rs`](./introductory_problems/14_tower_of_hanoi_sol2.rs) | `18-Jul-2025` |
 | `15` | [`Creating Strings`](https://cses.fi/problemset/task/1622) | [`15_creating_strings.rs`](./introductory_problems/15_creating_strings.rs) | `11-Sep-2025` |
