@@ -1,4 +1,4 @@
-// CSES Sorting & Searching Q-18 :: Josephus Problem II
+// CSES Sorting & Searching Q-19 :: Josephus Problem II
 // DateSolved: 16 April 2026
 // SolvedBy: taneshqGupta
 

@@ -63,7 +63,8 @@
 | `16` | [`Distinct Values Subarrays`](https://cses.fi/problemset/task/3420) | [`16_distinct_values_subarrays.rs`](./sorting_and_searching/16_distinct_values_subarrays.rs) | `14-Apr-2026` |
 | `17` | [`Distinct Values Subsequences`](https://cses.fi/problemset/task/3421) | [`17_distinct_values_subsequences.rs`](./sorting_and_searching/17_distinct_values_subsequences.rs) | `15-Apr-2026` |
 | `18` | [`Josephus Problem I`](https://cses.fi/problemset/task/2162) | [`18_josephus_problem_I.rs`](./sorting_and_searching/18_josephus_problem_I.rs) | `16-Apr-2026` |
-| `18` | [`Josephus Problem II`](https://cses.fi/problemset/task/2163) | [`19_josephus_problem_II_fenwick_sol_1.rs`](./sorting_and_searching/19_josephus_problem_II_fenwick_sol_1.rs) | `16-Apr-2026` |
+| `19` | [`Josephus Problem II`](https://cses.fi/problemset/task/2163) | [`19_josephus_problem_II_fenwick_sol_1.rs`](./sorting_and_searching/19_josephus_problem_II_fenwick_sol_1.rs) | `16-Apr-2026` |
+| `19` | [`Josephus Problem II`](https://cses.fi/problemset/task/2163) | [`19_josephus_problem_II_segtree_sol_1.rs`](./sorting_and_searching/19_josephus_problem_II_segtree_sol_1.rs) | `18-Apr-2026` |
 
 
 
