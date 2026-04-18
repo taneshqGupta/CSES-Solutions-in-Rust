@@ -122,8 +122,9 @@
 
 ---
 
-###### Each solution file is named with the format: `{problem_number}_{problem_name}.rs`
+
 ###### Solutions are organized into directories based on the CSES problemset categories.
+###### Inside the problemset categories, the problems are sorted in the order I did them.
 ###### All solutions are accepted submissions on CSES.
 
 #### Running the Solutions
