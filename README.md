@@ -66,6 +66,7 @@
 | `19` | [`Josephus Problem II`](https://cses.fi/problemset/task/2163) | [`19_josephus_problem_II_fenwick_sol_1.rs`](./sorting_and_searching/19_josephus_problem_II_fenwick_sol_1.rs) | `16-Apr-2026` |
 | `19` | [`Josephus Problem II`](https://cses.fi/problemset/task/2163) | [`19_josephus_problem_II_segtree_sol_1.rs`](./sorting_and_searching/19_josephus_problem_II_segtree_sol_1.rs) | `18-Apr-2026` |
 | `19` | [`Josephus Problem II`](https://cses.fi/problemset/task/2163) | [`19_josephus_problem_II_segtree_sol_2.rs`](./sorting_and_searching/19_josephus_problem_II_segtree_sol_2.rs) | `18-Apr-2026` |
+| `19` | [`Josephus Problem II`](https://cses.fi/problemset/task/2163) | [`19_josephus_problem_II_fenwick_sol_2.rs`](./sorting_and_searching/19_josephus_problem_II_fenwick_sol_2.rs) | `22-Apr-2026` |
 
 
 
