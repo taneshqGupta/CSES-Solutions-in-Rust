@@ -70,6 +70,7 @@
 | `20` | [`Nested Ranges Check`](https://cses.fi/problemset/task/2168) | [`20_nested_ranges_check.rs`](./sorting_and_searching/20_nested_ranges_check.rs) | `23-Apr-2026` |
 | `21` | [`Nested Ranges Count`](https://cses.fi/problemset/task/2169) | [`21_nested_ranges_count.rs`](./sorting_and_searching/21_nested_ranges_count.rs) | `23-Apr-2026` |
 | `22` | [`Room Allocation`](https://cses.fi/problemset/task/1164) | [`22_room_allocation.rs`](./sorting_and_searching/22_room_allocation.rs) | `25-Apr-2026` |
+| `23` | [`Factory Machines`](https://cses.fi/problemset/task/1620) | [`23_factory_machines.rs`](./sorting_and_searching/23_factory_machines.rs) | `25-Apr-2026` |
 
 
 
