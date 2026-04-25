@@ -69,6 +69,7 @@
 | `19` | [`Josephus Problem II`](https://cses.fi/problemset/task/2163) | [`19_josephus_problem_II_fenwick_sol_2.rs`](./sorting_and_searching/19_josephus_problem_II_fenwick_sol_2.rs) | `22-Apr-2026` |
 | `20` | [`Nested Ranges Check`](https://cses.fi/problemset/task/2168) | [`20_nested_ranges_check.rs`](./sorting_and_searching/20_nested_ranges_check.rs) | `23-Apr-2026` |
 | `21` | [`Nested Ranges Count`](https://cses.fi/problemset/task/2169) | [`21_nested_ranges_count.rs`](./sorting_and_searching/21_nested_ranges_count.rs) | `23-Apr-2026` |
+| `22` | [`Room Allocation`](https://cses.fi/problemset/task/1164) | [`22_room_allocation.rs`](./sorting_and_searching/22_room_allocation.rs) | `25-Apr-2026` |
 
 
 
