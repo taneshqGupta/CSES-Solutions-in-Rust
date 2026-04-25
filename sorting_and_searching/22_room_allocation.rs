@@ -29,7 +29,7 @@ fn main() {
     let mut heapx: BinaryHeap<(Reverse<usize>, usize)> = BinaryHeap::new();
     heapx.push((Reverse(intervals[0].1), 1));
     let mut num_rooms = 1;
-    rooms[0] = 1;
+    rooms[intervals[0].2] = 1;
     for i in 1..n {
         let (start, depart, index) = intervals[i];
         let (Reverse(earliest_depart), _id) = heapx.peek().unwrap();
