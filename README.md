@@ -138,8 +138,9 @@
 ###### To compile and run solutions:
 
 ```fish
-rustc $file -o sol && ./sol >std.out 2>std.err && bat --language=log std.out std.err && rm -f sol std.out std.err
+rustc $file -o sol && ./sol >stdout.log  2>stderr.log  && bat --language=log stdout.log  stderr.log
 ```
+
 
 ---
 
