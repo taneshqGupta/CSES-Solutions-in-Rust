@@ -21,7 +21,7 @@ fn main() {
     let mut cin = Scanner::default();
     /*
         If we pick an arbitrary time T,
-        the number of products the i-th machine can produce in that time is exactly ⌊T/ki​⌋.
+        the number of products the i-th machine can produce in that time is exactly floor(T / ki).
 
         The total number of products produced
         by all machines in time T is the sum of these individual amounts.
