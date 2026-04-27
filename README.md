@@ -73,6 +73,7 @@
 | `23` | [`Factory Machines`](https://cses.fi/problemset/task/1620) | [`23_factory_machines.rs`](./sorting_and_searching/23_factory_machines.rs) | `25-Apr-2026` |
 | `24` | [`Tasks & Deadines`](https://cses.fi/problemset/task/1630) | [`24_tasks_and_deadlines.rs`](./sorting_and_searching/24_tasks_and_deadlines.rs) | `26-Apr-2026` |
 | `25` | [`Sum of 3 Values`](https://cses.fi/problemset/task/1641) | [`25_sum_of_three_values.rs`](./sorting_and_searching/25_sum_of_three_values.rs) | `26-Apr-2026` |
+| `26` | [`Sum of 4 Values`](https://cses.fi/problemset/task/1642) | [`26_sum_of_four_values.rs`](./sorting_and_searching/26_sum_of_four_values.rs) | `27-Apr-2026` |
 
 
 
