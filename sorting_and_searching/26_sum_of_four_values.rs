@@ -1,3 +1,7 @@
+// CSES Sorting & Searching Q-26 :: Sum of 4 Values
+// DateSolved: 27 April 2026
+// SolvedBy: taneshqGupta
+
 use std::collections::HashMap;
 
 #[derive(Default, Debug)]
