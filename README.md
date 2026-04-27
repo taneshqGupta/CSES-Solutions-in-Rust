@@ -75,6 +75,7 @@
 | `25` | [`Sum of 3 Values`](https://cses.fi/problemset/task/1641) | [`25_sum_of_three_values.rs`](./sorting_and_searching/25_sum_of_three_values.rs) | `26-Apr-2026` |
 | `26` | [`Sum of 4 Values`](https://cses.fi/problemset/task/1642) | [`26_sum_of_four_values.rs`](./sorting_and_searching/26_sum_of_four_values.rs) | `27-Apr-2026` |
 | `26` | [`Sum of 4 Values`](https://cses.fi/problemset/task/1642) | [`26_sum_of_four_values_sol2.rs`](./sorting_and_searching/26_sum_of_four_values_sol2.rs) | `27-Apr-2026` |
+| `27` | [`Reading Books`](https://cses.fi/problemset/task/1631) | [`27_reading_books.rs`](./sorting_and_searching/27_reading_books.rs) | `27-Apr-2026` |
 
 
 
